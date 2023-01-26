@@ -1,0 +1,7 @@
+# Tasmo-Shell Configurations
+ts_histfile=~/.tasmo_history
+ts_datefmt="%F %T"
+#ts_log_history=1
+#ts_log_output=1
+ts_user=''
+ts_pass=''
