@@ -24,10 +24,12 @@ done
 shopt -s extglob
 cmd="$2"
 filter="$3"
+curlopts="-s -k --connect-timeout 0.5"
 out=/var/tmp/tasmo-shell.tmp
 history=~/.tasmo_history
 datefmt="%F %T"
 proto="http"
+
 
 # Source rc file if it exists
 if [[ -f ~/.tasmorc ]]; then source ~/.tasmorc; fi
@@ -51,16 +53,16 @@ query(){
   echo -n "$(date +"$datefmt") - TASMO_CMD - $_ip - '$_cmd'" >> $history
   echo -ne "${_ip}: "; > $out
   if [[ $_cmd == 'metrics' ]]; then
-    curl -s --connect-timeout 0.5 ${proto}://${_ip}/metrics > $out
+    curl ${curlopts} ${proto}://${_ip}/metrics > $out
     if [[ $(grep -i 'file not found' $out) ]]; then
       echo "Metrics endpoint not enabled or not accessible"; echo --; > $out
     else
       echo; cat $out; echo --; > $out
     fi
   elif [[ $ts_user && $ts_pass ]]; then
-    curl -sk --connect-timeout 0.5 --data-urlencode "user=${ts_user}&password=${ts_pass}&cmnd=${_cmd}" ${proto}://${_ip}/cm -o $out || echo "Failed to connect"
+    curl ${curlopts} --data-urlencode "user=${ts_user}&password=${ts_pass}&cmnd=${_cmd}" ${proto}://${_ip}/cm -o $out || echo "Failed to connect"
   else
-    curl -sk --connect-timeout 0.5 --data-urlencode "cmnd=${_cmd}" ${proto}://${_ip}/cm -o $out || echo "Failed to connect"
+    curl ${curlopts} --data-urlencode "cmnd=${_cmd}" ${proto}://${_ip}/cm -o $out || echo "Failed to connect"
   fi
   echo " - $(cat $out)" >> $history
   if [[ -s $out ]]; then
