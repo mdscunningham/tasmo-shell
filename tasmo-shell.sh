@@ -4,7 +4,7 @@
 # Author: Mark David Scott Cunningham                      | M  | D  | S  | C  |
 #                                                          +----+----+----+----+
 # Created: 2022-10-03
-# Updated: 2023-01-19
+# Updated: 2023-01-27
 #
 # Purpose: A simple interface for sending console commands to Tasmota devices
 #
@@ -25,15 +25,21 @@ shopt -s extglob
 cmd="$2"
 filter="$3"
 out=/var/tmp/tasmo-shell.tmp
+history=~/.tasmo_history
+datefmt="%F %T"
+proto="http"
 
 # Source rc file if it exists
 if [[ -f ~/.tasmorc ]]; then source ~/.tasmorc; fi
 
+# Check http or https
+if [[ -f $ts_proto ]]; then proto="$ts_proto"; fi
+
 # Check hisotry file location
-if [[ -f $ts_histfile ]]; then history="$ts_histfile"; else history=~/.tasmo_history; fi
+if [[ -f $ts_histfile ]]; then history="$ts_histfile"; fi
 
 # Check date format
-if [[ $ts_datefmt ]]; then datefmt="$ts_datefmt"; else datefmt="%F %T"; fi
+if [[ $ts_datefmt ]]; then datefmt="$ts_datefmt"; fi
 
 # Log start of session
 echo "$(date +"$datefmt") - SHELL_CMD - ${1:-shell} - '${cmd:-shell}' - '${filter:-none}'" >> $history
@@ -44,10 +50,17 @@ query(){
   _cmd="$2"
   echo -n "$(date +"$datefmt") - TASMO_CMD - $_ip - '$_cmd'" >> $history
   echo -ne "${_ip}: "; > $out
-  if [[ $ts_user && $ts_pass ]]; then
-    curl -s --connect-timeout 0.5 --data-urlencode "user=${ts_user}&password=${ts_pass}&cmnd=${_cmd}" http://${_ip}/cm -o $out || echo "Failed to connect"
+  if [[ $_cmd == 'metrics' ]]; then
+    curl -s --connect-timeout 0.5 http://${_ip}/metrics > $out
+    if [[ $(grep -i 'file not found' $out) ]]; then
+      echo "Metrics endpoint not enabled or not accessible"; echo --; > $out
+    else
+      echo; cat $out; echo --; > $out
+    fi
+  elif [[ $ts_user && $ts_pass ]]; then
+    curl -sk --connect-timeout 0.5 --data-urlencode "user=${ts_user}&password=${ts_pass}&cmnd=${_cmd}" ${proto}://${_ip}/cm -o $out || echo "Failed to connect"
   else
-    curl -s --connect-timeout 0.5 --data-urlencode "cmnd=${_cmd}" http://${_ip}/cm -o $out || echo "Failed to connect"
+    curl -sk --connect-timeout 0.5 --data-urlencode "cmnd=${_cmd}" http://${_ip}/cm -o $out || echo "Failed to connect"
   fi
   echo " - $(cat $out)" >> $history
   if [[ -s $out ]]; then
