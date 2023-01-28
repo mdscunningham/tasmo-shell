@@ -51,7 +51,7 @@ query(){
   echo -n "$(date +"$datefmt") - TASMO_CMD - $_ip - '$_cmd'" >> $history
   echo -ne "${_ip}: "; > $out
   if [[ $_cmd == 'metrics' ]]; then
-    curl -s --connect-timeout 0.5 http://${_ip}/metrics > $out
+    curl -s --connect-timeout 0.5 ${proto}://${_ip}/metrics > $out
     if [[ $(grep -i 'file not found' $out) ]]; then
       echo "Metrics endpoint not enabled or not accessible"; echo --; > $out
     else
@@ -60,7 +60,7 @@ query(){
   elif [[ $ts_user && $ts_pass ]]; then
     curl -sk --connect-timeout 0.5 --data-urlencode "user=${ts_user}&password=${ts_pass}&cmnd=${_cmd}" ${proto}://${_ip}/cm -o $out || echo "Failed to connect"
   else
-    curl -sk --connect-timeout 0.5 --data-urlencode "cmnd=${_cmd}" http://${_ip}/cm -o $out || echo "Failed to connect"
+    curl -sk --connect-timeout 0.5 --data-urlencode "cmnd=${_cmd}" ${proto}://${_ip}/cm -o $out || echo "Failed to connect"
   fi
   echo " - $(cat $out)" >> $history
   if [[ -s $out ]]; then
