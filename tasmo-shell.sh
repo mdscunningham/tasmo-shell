@@ -35,10 +35,10 @@ proto="http"
 if [[ -f ~/.tasmorc ]]; then source ~/.tasmorc; fi
 
 # Check http or https
-if [[ -f $ts_proto ]]; then proto="$ts_proto"; fi
+if [[ $ts_proto ]]; then proto="$ts_proto"; fi
 
 # Check hisotry file location
-if [[ -f $ts_histfile ]]; then history="$ts_histfile"; fi
+if [[ $ts_histfile ]]; then history="$ts_histfile"; fi
 
 # Check date format
 if [[ $ts_datefmt ]]; then datefmt="$ts_datefmt"; fi
