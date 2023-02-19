@@ -1,25 +1,30 @@
 
 DevGroupSend<x>
 
-<item>=<value>[ ...] = send an update to device group <x>. The device group name must have been previously set with DevGroupName<x>. Multiple item/value pairs can be specified separated by a space. Spaces in <value> must be escaped with a backslash (). The message sent is also processed on the local device as if it had been received from the network.
- 
-For items with numeric values, <value> can be specified as @<operator>[<operand>] to send a value after performing an operation on the current value. <operator> can be + (add), - (subtract) or ^ (invert). If <operand> is not specified, it defaults to 0xffffffff for the invert operator and 1 for other operators.
- 
-Examples:
-DevGroupSend 4=90 128=1 - send an update to set the light brightness to 90 and turn relay 1 on.
-DevGroupSend 193=Buzzer\ 2,3 - send the Buzzer 2,3 command.
-DevGroupSend 6=@+ 4=@-10 - set the next fixed color and decrease the brightness by 10.
-DevGroupSend 128=^ - toggle all the relays.
- 
-2 = Light fade (0 = Off, 1 = On)
-3 = Light speed (1..40)
-4 = Light brightness (0..255)
-5 = Light Scheme
-6 = Light fixed color (0 = white (using CT channels), other values according to Color)
-7 = PWM dimmer low preset (0..255)
-8 = PWM dimmer high preset (0..255)
-9 = PWM dimmer power-on brightness (0..255)
+<item> = <value>[ ...] = send an update to device group <x>. The device group name must have been previously set with DevGroupName<x>. Multiple item/value pairs can be specified separated by a space. Spaces in <value> must be escaped with a backslash (\). The message sent is also processed on the local device as if it had been received from the network.
+
+For items with numeric values, <value> can be specified as @<operator>[<operand>] to send a value after performing an operation on the current value. <operator> can be + (add), - (subtract), ^ (invert), & (bitwise AND) or | (bitwise OR). If <operand> is not specified, it defaults to 0xffffffff for the invert operator and 1 for other operators.
+
+To indicate that an item should not be shared with the group until changed again, prefix the value with N.
+
+3 = Light fade (0 = Off, 1 = On)
+4 = Light speed (1..40)
+5 = Light brightness (0..255)
+6 = Light Scheme
+7 = Light fixed color (0 = white (using CT channels), other values according to Color)
+8 = PWM dimmer low preset (0..255)
+9 = PWM dimmer high preset (0..255)
+10 = PWM dimmer power-on brightness (0..255)
 128 = Relay Power - bitmask with bits set for relays to be powered on. The number of relays can be specified in bits 24 - 31. If the number of relays is not specified, only relay 1 is set
+129 = No Status Share - DevGroupShare bitmask indicating which items should not be shared until changed.
 192 = Event - event name and arguments
 193 = Command - command and arguments
-224 = Light channels - comma separated list of brightness levels (0..255) for channels 1 - 5 (e.g. 255,128,0,0,0 will turn the red channel on at 100% and the green channel on at 50% on an RGB light)
+224 = Light channels - comma separated list of brightness levels (0..255) for channels 1 - 5 (e.g. 255,128,0,0,0 will turn the red channel on at 100% and the green channel on at 50% on an RGB light) or hex color value (#RRGGBB, #RRGGBBWW, etc.)
+
+Examples:
+DevGroupSend 5=90 128=1 - send an update to set the light brightness to 90 and turn relay 1 on.
+DevGroupSend 193=Buzzer\ 2,3 - send the Buzzer 2,3 command.
+DevGroupSend 6=@+ 5=@-10 - set the next fixed color and decrease the brightness by 10.
+DevGroupSend 128=^ - toggle all the relays.
+DevGroupSend 224=NFF0000 - set the color to red locally and inform the group that light channel information is not to be shared until changed.
+DevGroupSend 129=@\|18 - do not share light brightness or channel status until changed.

@@ -1,5 +1,17 @@
 
 Status
 
-8 = show power usage
-9 = show power thresholds
+= show abbreviated status information
+0 = show all status information (1 - 11)
+1 = show device parameters information
+2 = show firmware information
+3 = show logging and telemetry information
+4 = show memory information
+5 = show network information
+6 = show MQTT information
+7 = show time information
+8 = show connected sensor information (retained for backwards compatibility)
+9 = show power thresholds (only on modules with power monitoring)
+10 = show connected sensor information (replaces 'Status 8')
+11 = show information equal to TelePeriod state message
+12 = in case of crash to dump the call stack saved in RT memory
