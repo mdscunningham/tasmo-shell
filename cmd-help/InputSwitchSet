@@ -1,0 +1,5 @@
+
+InputSwitchSet
+
+Sets the number of the input used in case in manual control
+<1..4> = Number of the input (default 1)

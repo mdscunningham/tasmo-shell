@@ -1,0 +1,7 @@
+
+ZbLight
+
+Sets or reads the light type to be emulated in Zigbee Hue Emulation with Alexa.
+<device>,<light_type> sets the light type using an integer 0..5 corresponding to the number of channels (from one channel (on/off) to 5 channel (RGBCCT) lights)
+<device>,-1 removes the device from Philips Hue emulation
+<device> displays the current status of the Light (Zigbee2Tasmota tracks all changes to the light)

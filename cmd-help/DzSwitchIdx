@@ -1,0 +1,6 @@
+
+DzSwitchIdx<x>
+
+Show Domoticz Switch idx <x> (x = 1..4)
+0 = disable use of Switch idx <x> (default)
+<value> = Show Switch idx <x> (to use enable SwitchTopic)

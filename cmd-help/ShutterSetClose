@@ -1,0 +1,4 @@
+
+ShutterSetClose<x>
+
+shutter closed position. ShutterPosition will be reset to fully closed value (e.g., 0 when ShutterInvert = 0, 100 otherwise). This does not work with Servos. min and max of servos are always defined through ShutterPWMRange.

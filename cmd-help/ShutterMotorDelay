@@ -1,0 +1,7 @@
+
+ShutterMotorDelay<x>
+
+-12.75 .. 12.75 (default = 0)
+time, in seconds, it takes the motor to start moving once power is turned on; i.e., motor lag time. You can use negative numbers if your motor stops to late after power OFF
+ 
+When used with stepper motors, this setting defines the ramp up/down speed (i.e., acceleration/deceleration) before the motor reaches its target speed for gradual starting and stopping. In this case only positive numbers are allowed.

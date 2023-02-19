@@ -1,0 +1,5 @@
+
+ShutterInvertWebButtons<x>
+
+0 = use default button icons (? for open, ? for close)
+1 = invert button icons (? for open, ? for close) (e.g., if used with horizontal awning: where open means rolling-down fabric material and close rolling-up in a protect position)

@@ -1,0 +1,6 @@
+
+SetOption93
+
+Control caching of compressed rules
+0 = Disable memory caching of uncompressed rules 
+1 = Keep uncompressed rules in memory to avoid CPU load of uncompressing at each tick (default)

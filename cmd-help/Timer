@@ -1,0 +1,7 @@
+
+Timer<x>
+
+Parameters for Timer<x> where x = 1..16
+0 = clear parameters for Timer<x>
+1..16 = copy Timer<y> parameters to Timer<x>
+{ ""name"":value ; .. } = set all or individual parameters using JSON payload with names and values of data pairs from the table

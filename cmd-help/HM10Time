@@ -1,0 +1,4 @@
+
+HM10Time 
+
+<n> = set time time of a LYWSD02 only sensor to Tasmota UTC time and time zone. <n> is the sensor number in order of discovery starting with 0 (topmost sensor in the webUI list).

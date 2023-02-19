@@ -1,0 +1,12 @@
+
+Reset
+
+1 = reset device settings to firmware defaults and restart (see warning below)
+2 = erase flash, reset device settings to firmware defaults and restart
+3 = erase System Parameter Area in flash (Wi-Fi calibration and related data) and restart (see warning below)
+4 = reset device settings to firmware defaults but retain Wi-Fi credentials and restart
+5 = erase all flash and reset parameters to firmware defaults but keep Wi-Fi settings and restart
+6 = erase all flash and reset parameters to firmware defaults but keep Wi-Fi and MQTT settings and restart
+(Erase of flash can take a few seconds to complete and there is no output during the erase process on the serial or web console)
+99 = reset device bootcount to zero
+For reset 3and reset 1, device must be power-cycled in order to load new Wifi System parameters.

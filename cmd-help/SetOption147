@@ -1,0 +1,4 @@
+
+SetOption147
+
+1 = disable publish SSerialReceived MQTT messages, you must use event trigger rules instead

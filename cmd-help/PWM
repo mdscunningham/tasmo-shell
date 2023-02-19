@@ -1,0 +1,4 @@
+
+PWM<x>
+
+0..1023 = set PWM value for channel (NOTE see SetOption15)

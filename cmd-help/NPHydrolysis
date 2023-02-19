@@ -1,0 +1,7 @@
+
+NPHydrolysis
+
+{<level>}
+(only available if hydrolysis/electrolysis control is present)
+get/set hydrolysis/electrolysis level in % (level = 0..100)
+get current level if is omitted, otherwise set

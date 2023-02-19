@@ -1,0 +1,5 @@
+
+TuyaTempSetRes
+
+Set resolution only for Tuya Set Temperature sensor (fnId 72). 
+0..3 = maximum number of decimals shown

@@ -1,0 +1,25 @@
+
+WebColor<x>
+
+Configure Web GUI colors (x = 1..19)
+#RRGGBB = Set color for WebColor<x>
+1 = Global text (Black)
+2 = Global background (White)
+3 = Form background (Greyish)
+4 = Input text (Black)
+5 = Input background (White)
+6 = Console text (Black)
+7 = Console background (White)
+8 = Warning text (Red)
+9 = Success text (Green)
+10 = Button text (White)
+11 = Button (Blueish)
+12 = Button hovered over (Darker blue-ish)
+13 = Restart/Reset/Delete button (Red-ish)
+14 = Restart/Reset/Delete button hover (Darker red-ish)
+15 = Save button (Green-ish)
+16 = Save button hover (Darker greenish)
+17 = Config timer tab text (White)
+18 = Config timer tab background (Light grey)
+19 = Module title and FriendlyName text (Whiteish)
+User themes

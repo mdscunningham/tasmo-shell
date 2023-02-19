@@ -1,0 +1,8 @@
+
+ZbCIE
+
+Configure on the ZigBee device the CIE address using the IEEE address of the ZigBee Bridge. The ZigBee Bridge will act as the CIE device for the ZigBee Network. See IAS Cluster in the ZigBee specification for more information.
+Usage: ZbCIE <device>,<endpoint>
+<device> is the ZigBee device to configure
+<endpoint> is the endpoint in the ZigBee device where the IAS Cluster is.
+Example: ZbCIE 1,44

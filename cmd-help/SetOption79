@@ -1,0 +1,6 @@
+
+SetOption79
+
+Reset counters at TelePeriod time
+0 = disable (default)
+1 = enable

@@ -1,0 +1,7 @@
+
+ZbNoPrefix
+SetOption100
+
+remove Zigbee ZbReceived value from {""ZbReceived"":{xxx:yyy}} JSON message
+0 = disable (default) 
+1 = enable

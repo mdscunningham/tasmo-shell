@@ -1,0 +1,6 @@
+
+SetOption90
+
+Disable sending MQTT with non-JSON messages
+0 = send all MQTT (default) 
+1 = send only MQTT messages with JSON payloads

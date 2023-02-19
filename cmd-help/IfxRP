@@ -1,0 +1,5 @@
+
+IfxRP
+
+<value> = set Influxdb retention policy (optional) 
+If blank, default is used as defined by the InfluxDB service. Retention policy must exist in InfluxDB, otherwise http post will fail.

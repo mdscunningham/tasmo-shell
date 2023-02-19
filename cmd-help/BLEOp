@@ -1,0 +1,5 @@
+
+BLEOp
+
+Perform a simple active BLE operation (read/write/notify).
+see separate description in source code

@@ -1,0 +1,5 @@
+
+SetOption108
+
+0 = Teleinfo telemetry only sent into Energy MQTT JSON (default)
+1 = Each Teleinfo received frame is also sent by MQTT (mainly to be able to display real time data)

@@ -1,0 +1,7 @@
+
+ThermostatModeSet
+
+Sets the thermostat mode
+0 = Thermostat Off (controller inactive, default)
+1 = Thermostat in automatic mode (controller active)
+2 = Thermostat in manual mode (output switch follows the input switch, used to follow an existing wall thermostat)

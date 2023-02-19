@@ -1,0 +1,5 @@
+
+ShutterPosition<x>
+
+0..100, UP, OPEN, DOWN, CLOSE, STOP, TOGGLE, TOGGLEDIR, STOPOPEN, STOPCLOSE,
+A shutter position change can be requested at any time. The shutter will stop and revert or update to the requested position. The shutter's actual position will be saved after the movement is completed. In this case, the position will be restored during reboot. An interruption during shutter movement (e.g., a device restart) will lose the current position.

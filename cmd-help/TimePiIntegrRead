@@ -1,0 +1,5 @@
+
+TimePiIntegrRead
+
+Returns the integral part of the PI controller calculation in seconds
+value = value in seconds

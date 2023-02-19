@@ -1,0 +1,9 @@
+
+WebSensor<x>
+
+Control display of sensor telemetry in the web UI
+0 = Do not display sensor's telemetry
+1 = Display sensor's telemetry (default)
+<x> = number corresponding to the sensor - listed in the sns section of the supported sensor spreadsheet
+<x> = 3 Energy telemetry
+Issue a Status 4 to obtain a list of sensor types enabled in the firmware loaded on the device.

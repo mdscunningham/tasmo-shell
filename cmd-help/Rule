@@ -1,0 +1,18 @@
+
+Rule<x>
+
+Rules. Read more...
+0 = disable Rule<x>
+1 = enable Rule<x>
+2 = toggle Rule<x>
+4 = disable one-shot detection (perform commands as long as trigger is met)
+5 = enable one-shot (e.g., sometimes used for slow changing sensors like temperature) detection
+6 = toggle one-shot detection
+8 = disable stop-on-error after exception restart
+9 = enable stop-on-error after exception restart
+10 = toggle stop-on-error after exception restart
+<value> = define Rule<x>
++<value> = append to Rule<x>
+"" = clear Rule<x>
+ 
+Rule set one-shot: Each rule within the rule set will trigger only once until the trigger condition returns to a false condition. For example, ON Energy#Power<3: Without one-shot enabled, it will trigger anytime Energy#Power gets an update (i.e., the Power telemetry value changes) and the value is <3. This can potentially trigger that rule multiple times. With one-shot enabled, the rule will trigger only the on the first transition to <3 and not again until the trigger value goes >=3. In other words, the rule will trigger again, but it has to cross the conditional ""boundary"" before it will trigger again.

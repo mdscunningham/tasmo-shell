@@ -1,0 +1,6 @@
+
+Topic
+
+1 = reset MQTT topic to firmware default (MQTT_TOPIC) and restart
+<value> = set MQTT topic and ButtonTopic and restart.
+When using MQTT to issue this command, if it is used with the device GroupTopic, the command will not be executed. Topic can not be identical to MqttClient

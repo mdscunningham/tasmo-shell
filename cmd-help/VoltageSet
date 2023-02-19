@@ -1,0 +1,5 @@
+
+VoltageSet<x
+
+<value> = calibrate voltage to a target value in V
+x = 1 or 2 indicating phase

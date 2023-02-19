@@ -1,0 +1,6 @@
+
+BLEName
+
+Read or write the name of a BLE device.
+BLEName mac|alias = read the name of a device using 1800/2A00.
+BLEName mac|alias = write the name of a device using 1800/2A00 - many devices are read only.

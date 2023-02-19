@@ -1,0 +1,5 @@
+
+ZbZNPReceive 
+
+(CC2530 only) Simulates a received message
+<hex> = hex string of the simulated message, same format as ZbZNPReceived debug logs

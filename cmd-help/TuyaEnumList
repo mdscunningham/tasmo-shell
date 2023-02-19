@@ -1,0 +1,6 @@
+
+TuyaEnumList
+
+Declare the range an Enum (fnId 61, 62, 63 and 64) must respect (0 is always the first item in range)
+<enum>,<range> = <enum> is Enum<x> declared using TuyaMCU and <range> can be 0..31
+Without payload returns the configuration of all the Enums

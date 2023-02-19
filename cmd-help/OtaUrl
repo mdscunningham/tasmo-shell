@@ -1,0 +1,6 @@
+
+OtaUrl
+
+Display current OTA URL
+1 = Reset OtaUrl to firmware default
+url = set address for OTA (100 char limit)

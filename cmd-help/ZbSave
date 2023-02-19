@@ -1,0 +1,4 @@
+
+ZbSave <hex>
+
+Forces saving the Zigbee device information to Flash. Auto-saving happens 10 seconds after a new Device parameter was changed, this command is normally not useful

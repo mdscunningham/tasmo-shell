@@ -1,0 +1,6 @@
+
+SetOption76
+
+Boot count incrementing when DeepSleep is enabled (#6930)
+0 = disable boot count incrementing (default)
+1 = enable boot count incrementing

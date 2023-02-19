@@ -1,0 +1,6 @@
+
+IBEACONtimeout
+
+Display or Set the timeout for iBeacon devices
+IBEACONtimeout = display timeout
+IBEACONtimeout ss = set timeout in seconds

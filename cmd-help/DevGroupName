@@ -1,0 +1,6 @@
+
+DevGroupName<x>
+
+0 = clear device group <x> name and restart
+<value> = set device group <x> name and restart.
+Prior to 8.2.0.3, GroupTopic was used to specify the device group name.

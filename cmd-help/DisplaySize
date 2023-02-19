@@ -1,0 +1,4 @@
+
+DisplaySize
+
+1..4 Set display scale-up size (SSD1306 and ILI9341 only)

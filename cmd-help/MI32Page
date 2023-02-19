@@ -1,0 +1,6 @@
+
+MI32Page
+
+Display/Set the sensors per page in the web view.
+MI32page = show sensors per page.
+MI32page n = Set sensors per page to n.

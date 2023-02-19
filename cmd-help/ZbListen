@@ -1,0 +1,8 @@
+
+ZbListen<x> <group>
+
+(EZSP ZBBridge only)Listens to a multicast group address. By default EZSP will not report group messages unless you subscribe to the group.
+<x>: slot in the array of group addresses, 1..15
+<group>: group address to listen to, 0..0xFFFF
+At start-up, Z2T automatically listens to group 0 in slot 0.
+CC2530 does not need this command and always report all group messages.

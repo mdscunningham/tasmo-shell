@@ -1,0 +1,7 @@
+
+NPResult
+
+{<format>}
+get/set addr/data result format for read/write commands (format = 0|1). Get if format is omitted, otherwise set accordingly <format>:
+0 - output decimal numbers
+1 - output hexadecimal strings, this is the default

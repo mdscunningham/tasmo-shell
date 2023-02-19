@@ -1,0 +1,7 @@
+
+SetOption114
+
+Detach switches from relays and send MQTT messages instead
+0 = disable (default)
+1 = enable
+Example result: {""Switch1"":{""Action"":""ON""}}

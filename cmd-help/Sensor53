@@ -1,0 +1,12 @@
+
+Sensor53
+
+Smart Meter Interface
+r = reset the driver with a new descriptor specified with the Tasmota Scripting language.
+c<x> <value> = preset counter (x = 1..5) to value when the driver is set to counter mode
+d<x> = disable data decoding and dump meter (x = 1..5) data to the Console. This is used to decipher the meter's data format to define the variable encoding in the meter's descriptor.
+d0 = disable data dump mode and revert to decoding mode.
+l<x> = monitor the serial activity at a GPIO with a connected LED. x = GPIO of the LED.
+l255 = disable monitoring (default)
+m<x> = serial meter number (x = 1..5) to be monitored
+m0 = monitor all serial meters (default)

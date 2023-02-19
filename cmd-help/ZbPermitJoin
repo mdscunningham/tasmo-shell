@@ -1,0 +1,8 @@
+
+ZbPermitJoin
+
+Sets pairing mode for new device discovery
+0 = disable pairing mode
+1 = enable pairing mode for 60 seconds
+99 = enable pairing until device reboots (CC2530 only)
+Leaving Zigbee network open to join will allow any Zigbee device to connect and retrieve your network encryption key. This can lead to a compromise of your Zigbee network.

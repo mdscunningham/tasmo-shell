@@ -1,0 +1,5 @@
+
+SetOption127
+
+Force Wi-Fi in no-sleep mode even if Sleep 0 is not enabled
+1 = enable

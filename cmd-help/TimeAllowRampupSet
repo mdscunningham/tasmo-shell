@@ -1,0 +1,5 @@
+
+TimeAllowRampupSet
+
+Sets the minimum time in minutes since the last control action to be able to switch to the predictive ramp-up controller phase (applicable just in case of Hybrid controller, used normally in case of big deltas between the setpoint and the room temperature)
+<value> = Minutes (default 300 minutes) 

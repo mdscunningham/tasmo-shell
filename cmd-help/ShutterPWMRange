@@ -1,0 +1,5 @@
+
+ShutterPWMRange<x>
+
+0..1023,0..1023
+For servo motors the min and max position is defined by the length of the duty cycle signal. Because every servo is different the min and max PWM value must be set for each servo type. The value is also dependant on the PWMfrequency. Servos normally use 50..200 as PWMfrequency.

@@ -1,0 +1,8 @@
+
+ZbEnroll
+
+Enroll the the ZigBee device to the ZigBee Bridge for reporting security sensors data, panels, etc. The ZigBee Bridge will act as the CIE device for the ZigBee Network.
+Usage: ZbEnroll <device>,<endpoint>
+<device> is the ZigBee device to configure
+<endpoint> is the endpoint in the ZigBee device where the IAS Cluster is.
+Example: ZbEnroll 1,44

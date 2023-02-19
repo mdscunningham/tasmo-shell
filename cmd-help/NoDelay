@@ -1,0 +1,5 @@
+
+NoDelay
+
+Delay defined by SetOption34 is omitted for any command in a backlog sequence following immediately after NoDelay
+This must be used with care, and only for simple commands. Example

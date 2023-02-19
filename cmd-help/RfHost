@@ -1,0 +1,7 @@
+
+RfHost
+
+Show 16-bit host part of user code
+1 = reset 16-bit host part of user code to 11802 (#2E1A)
+2..32767 = set 16-bit host part of user code
+#2..7FFF = set 16-bit host part of user code in hexadecimal

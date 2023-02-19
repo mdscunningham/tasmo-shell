@@ -1,0 +1,6 @@
+
+ZbMap<n>
+
+Asks the device for its view of the Zigbee topology
+<device> the device to query
+<n> the start index for the request, 1 is the default. This is used to scan through all values since devices usually return only 3 values per request.

@@ -1,0 +1,6 @@
+
+RuleTimer<x>
+
+Up to eight timers to be used as countdown event (x = 1..8) 
+0..65535 = set countdown rule timer in seconds
+RuleTimer0 0 = stops and clear all timer simultaneously

@@ -1,0 +1,5 @@
+
+TimeManualToAutoSet
+
+Sets the time in manual mode after the last active input action (f.e. last action from serial connected wall thermostat) to switch to automatic mode
+0..1440 = time in minutes (default 60 minutes)

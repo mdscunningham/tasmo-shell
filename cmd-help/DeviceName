@@ -1,0 +1,5 @@
+
+DeviceName
+
+Device name displayed in the webUI and used for HA autodiscovery.
+<value> = set device name (default = FriendlyName1 value)

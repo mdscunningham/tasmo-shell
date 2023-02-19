@@ -1,0 +1,8 @@
+
+SetOption137
+
+1 = following Tuya responses will not be forwarded to MQTT when SetOption66 is enabled
+  - heartbeat every 10 seconds, TUYA_CMD_HEARTBEAT
+  - the WiFi state during start-up and Wi-Fi events, TUYA_CMD_WIFI_STATE
+  - the local time info query of the MCU every minute, TUYA_CMD_SET_TIME
+  - the received update package info from MCU during firmware update of Tuya MCU, TUYA_CMD_UPGRADE_PACKAGE

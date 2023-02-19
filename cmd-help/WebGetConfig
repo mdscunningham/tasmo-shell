@@ -1,0 +1,5 @@
+
+WebGetConfig
+
+<url>
+Download a configuration (*.dmp) from an http URL. The URL can include %id% which will be substituted by the device's MAC address without the dots. A possible usage for ones that compile their own binary is to include the command in USER_BACKLOG for automatic reconfiguration after a reset 1command.

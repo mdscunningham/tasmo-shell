@@ -1,0 +1,5 @@
+
+NRFIgnore
+
+0 = all known sensor types active_(default)_
+<value> = ignore certain sensor type (1 = Flora, 2 = MJ_HT_V1, 3 = LYWSD02, 4 = LYWSD03, 5 = CGG1, 6 = CGD1

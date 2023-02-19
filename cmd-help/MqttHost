@@ -1,0 +1,6 @@
+
+MqttHost
+
+0 = clear MQTT host field and allow mDNS to find MQTT host
+1 = reset MQTT host to firmware default (MQTT_HOST) and restart
+<value> = set MQTT host and restart (do NOT use .local)

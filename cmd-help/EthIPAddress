@@ -1,0 +1,8 @@
+
+EthIPAddress
+
+Set device Ethernet IP address (for Wi-Fi, see IpAddress)
+0.0.0.0 = use dynamic IP address (DHCP)
+XXX.XXX.XXX.XXX = set static IP address
+ 
+Follow any IP configuration commands with restart 1 to apply changes

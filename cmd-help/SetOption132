@@ -1,0 +1,5 @@
+
+SetOption132
+
+When MQTT TLS is enabled, forces fingerprint validation of server identity instead of checking the identify against a certificate authority (CA)
+1 = Fingerprint, 0 = CA

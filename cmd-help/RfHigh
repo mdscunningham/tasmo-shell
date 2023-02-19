@@ -1,0 +1,6 @@
+
+RfHigh
+
+1 = reset high pulse time to 840 microseconds
+2..32767 = set high pulse time in microseconds
+#2..#7FFF = set high pulse time in hexadecimal microseconds

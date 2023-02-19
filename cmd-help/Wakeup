@@ -1,0 +1,5 @@
+
+Wakeup
+
+Start wake up sequence from OFF to stored Dimmer value
+0..100 = Start wake up sequence from OFF to provided Dimmer value

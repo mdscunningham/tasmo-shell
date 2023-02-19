@@ -1,0 +1,6 @@
+
+SetOption39
+
+Control handling of invalid power measurements. Read more...
+0 = reset to default on next restart
+1..255 = number of invalid power readings before reporting no load (default =128).

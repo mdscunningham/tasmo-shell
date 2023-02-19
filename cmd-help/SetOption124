@@ -1,0 +1,6 @@
+
+SetOption124
+
+Wiegand key pad stroke format
+0 = one tag (ending char # or ) *(default)
+1 = one key

@@ -1,0 +1,5 @@
+
+HumOffset
+
+-10.0..10.0 = Set calibration offset value for reported humidity telemetry
+This setting affects all humidity sensors on the device.

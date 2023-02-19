@@ -1,0 +1,15 @@
+
+ZbBind
+
+Binds one Zigbee device to another device or to a group. This allows one device to directly send commands (f.e. a remote to a bulb) without any action on the coordinator.
+Command structure: {""Device"":""<device>"", ""Endpoint"":<endpoint>, ""Cluster"":<cluster>, ""ToDevice"":""<to_device>"", ""ToEndpoint"":<to_endpoint>, ""ToGroup"":<to_group> }
+<device> = device sending messages (mandatory)
+<endpoint> = source endpoint (mandatory)
+<cluster> = source cluster id (mandatory)
+<to_device> = target device (optional)
+<to_endpoint> = target endpoint
+ (optional if it can be inferred from ZbStatus3)
+<to_group> = target group id (optional)
+You must specify either ""ToDevice"" or ""ToGroup"" but not both
+Zigbee2Tasmota must know the IEEE address of target device, see ZbStatus2 to verify and ZbProbe to have Zigbee2Tasmota query the address
+(EZSP ZBBridge only) If you bind devices to groups you should also use ZbListen to that group, otherwise MQTT messages will not be published

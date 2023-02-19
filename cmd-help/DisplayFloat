@@ -1,0 +1,11 @@
+
+DisplayFloat 
+(TM1637, TM1638 and MAX7219) 
+
+ TM1638 and MAX7219) ","num[, position[, precision[, length]]] 
+Clears and then displays float (with decimal point).
+ 
+precision can be 0 to NUM_DIGITS (default), 
+length can be 1 to NUM_DIGITS (4 or 6), 
+position can be 0 (left-most) to NUM_DIGITS (right-most). 
+See TM163x for details.

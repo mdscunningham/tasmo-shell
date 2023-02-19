@@ -1,0 +1,6 @@
+
+AdcParam<x>
+
+ADC analog input tuning parameters. On ESP32 x is channel 1..8
+<sensor>, <param1>, <param2>, <param3>, <param4>
+complete <sensor> values listed here...

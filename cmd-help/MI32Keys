@@ -1,0 +1,7 @@
+
+MI32Keys
+
+Add one or more decryption keys by mac or alias.
+MI32Keys = list keys.
+MI32Keys <mac or blealias>=<bind_key> <mac or blealias>=<bind_key> ... = add keys for MAC or ble_alias.
+MI32Keys <mac or blealias>= - remove keys for one mac

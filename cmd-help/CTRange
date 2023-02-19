@@ -1,0 +1,6 @@
+
+CTRange
+
+Specify CT range of the bulb. The slider will still allow to set CT from 153 to 500, but the rendering will be done within the new range.
+<ct_min>,<ct_max> = set color temperature from 153 (cold) to 500 (warm) for CT lights default = 153,500
+This settings is not persisted in flash

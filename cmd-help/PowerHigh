@@ -1,0 +1,5 @@
+
+PowerHigh
+
+0 = disable power high threshold (default)
+<value> = set power high threshold value in watts to send an MQTT telemetry message

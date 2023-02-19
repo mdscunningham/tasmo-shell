@@ -1,0 +1,7 @@
+
+PowerDelta<x>
+
+Set maximum delta of phase a<x> in energy monitoring devices to report on active power load change while the power is ON. PowerDelta will not report when the power turns off. 
+0 = disable reporting on power change
+1..100 = set reporting on percentage power change to send an MQTT telemetry message
+101..32000 = set reporting on absolute power change to send an MQTT telemetry message (offset by 100, e.g., 101=1W, 207=107W)

@@ -1,0 +1,4 @@
+
+BlinkTime
+
+2..3600 set duration, in 0.1 second increments, to blink aka toggle Power (does not control the status LED)

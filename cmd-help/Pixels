@@ -1,0 +1,4 @@
+
+Pixels
+
+1..512 = set amount of pixels in strip or ring and reset Rotation (applies only to addressable LEDs)

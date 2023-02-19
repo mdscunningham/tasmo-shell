@@ -1,0 +1,9 @@
+
+Power<x>
+
+Control the corresponding power state (1..8) (also restarts PulseTime)<x>
+0 / off / false = turn OFF 
+1 / on / true = turn ON 
+2 / toggle = if power state is ON switch to OFF and vice versa
+3 / blink = toggle power for BlinkCount times each BlinkTime duration (at the end of blink, power state is returned to pre-blink state)
+4 / blinkoff = stop blink sequence and return power state to pre-blink state

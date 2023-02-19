@@ -1,0 +1,5 @@
+
+ShutterFrequency<x>
+
+0..10,000Hz (default = 1000)
+the maximum frequency at which the stepper motor can operate reliably. Typically this is up to 2,000Hz with a 12V power supply and up to 5,000Hz with a 24V power supply.

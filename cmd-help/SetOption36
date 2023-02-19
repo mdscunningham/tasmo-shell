@@ -1,0 +1,11 @@
+
+SetOption36
+
+Boot loop defaults restoration control.
+0 = disable boot loop control
+1..200 = set number of boot loops (a restart caused by any exception or watchdog timer within less than BOOT_LOOP_TIME (default 10 seconds) before beginning to restore settings (default = 1). Once this number is reached, subsequent restarts will:
+1st restart: disable ESP8285 generic GPIOs interfering with flash SPI
+2nd restart: disable rules causing boot loop
+3rd restart: disable all rules (and autoexec.bat)
+4th restart: reset user defined GPIOs to disable any attached peripherals
+5th restart: reset module to Sonoff Basic (1)

@@ -1,0 +1,4 @@
+
+ShutterStopToggleDir<x>
+
+Stop the shutter when currently moving, do ShutterToggleDir otherwise

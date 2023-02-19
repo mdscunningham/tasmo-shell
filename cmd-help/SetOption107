@@ -1,0 +1,6 @@
+
+SetOption107
+
+Set virtual CT channel light type (experimental feature)
+0 = Warm White 
+1 = Cold White

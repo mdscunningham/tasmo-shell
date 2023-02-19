@@ -1,0 +1,4 @@
+
+SetSensor<x>
+
+Enable / Disable individual sensor driver(x= 1..127)

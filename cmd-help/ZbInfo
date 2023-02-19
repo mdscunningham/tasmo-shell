@@ -1,0 +1,4 @@
+
+ZbInfo
+
+<device> = display all information known about a device, equivalent to ZbStatus3 with a simpler JSON output

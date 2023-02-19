@@ -1,0 +1,6 @@
+
+DeepSleepTime
+
+Time to enter deep sleep mode
+0 = disable deep sleep mode (default)
+11..86400 = set deep sleep mode time period in seconds

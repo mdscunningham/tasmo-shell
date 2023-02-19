@@ -1,0 +1,9 @@
+
+DisplayFont
+
+Specify the current font
+0 use classic GFX font
+1 = 12
+2 = 24
+3 = 8 (opt)
+7 use RA8876 internal font

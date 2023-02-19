@@ -1,0 +1,6 @@
+
+SetOption87
+
+PWM Dimmer only! Turn red LED on when powered off
+0 = disable (default)
+1 = enable

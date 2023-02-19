@@ -1,0 +1,6 @@
+
+ZbEZSPReceive<x> <hex>
+
+(EZSP only) Simulates a received message
+<x>: 1=high-level EZSP command, 2=low-level EZSP frame, 3=low-level EZSP/ASH frame
+<hex> = hex string of the simulated message, same format as ZbZNPReceived debug logs

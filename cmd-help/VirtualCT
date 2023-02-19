@@ -1,0 +1,8 @@
+
+VirtualCT
+
+Precisely specify color rendering of the bulb for Color Temperature. Needs SetOption106 1 and works for 3, 4 or 5 channel lights
+{""<minct>"":""<color1>"",""midct"":""<color2>"",""maxct"":""<color3""}
+Example: VirtualCT {""200"":""FFFFFF0000"",""400"":""000000FF00""}
+The first and last CT values indicate the min and max CT and are equivalent to CTRange. Read more...
+This settings is not persisted in flash

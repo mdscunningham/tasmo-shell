@@ -1,0 +1,6 @@
+
+PowerRetain
+
+MQTT power retain state
+0 / off = disable MQTT power retain on status update (default) 
+1 / on = enable MQTT power retain on status update 

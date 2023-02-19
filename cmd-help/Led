@@ -1,0 +1,5 @@
+
+Led<x>
+
+#RRGGBB = set hex color value where <x> is the pixel number of the LED. A blank-delimited list of colors sets multiple successive pixels.
+(applies only to addressable LEDs)

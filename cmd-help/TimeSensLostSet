@@ -1,0 +1,5 @@
+
+TimeSensLostSet
+
+Sets the maximum time without a temperature sensor update to mark it as lost in minutes
+0..1440 = value in minutes (default 30 minutes)

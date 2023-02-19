@@ -1,0 +1,5 @@
+
+Palette
+
+0 = Clear color palette
+[ ...] = Set list of colors used by Color<1,2> and Scheme<2,3,4> commands with each color separated by a space. The palette setting is not saved to flash. Use a boot-time rule such as ON System#Boot DO Palette xxxxx ENDON to set it back at each restart.

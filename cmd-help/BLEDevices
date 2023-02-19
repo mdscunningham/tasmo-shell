@@ -1,0 +1,6 @@
+
+BLEDevices
+
+Cause a list of known devices to be sent on MQTT, or Empty the list of known devices.
+BLEDevices0 = clear the known devices list.
+BLEDevices = Cause the known devices list to be published on stat/TASName/BLE.

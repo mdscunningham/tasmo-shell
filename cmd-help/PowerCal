@@ -1,0 +1,6 @@
+
+PowerCal
+
+1000..32000 (default = 12530)
+Set calibration offset value for reported Power telemetry reading
+Allows finer calibration for energy monitoring devices

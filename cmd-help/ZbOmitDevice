@@ -1,0 +1,7 @@
+
+ZbOmitDevice
+SetOption119
+
+Remove device addr from JSON payload
+0 = disable (default)
+1 = enable

@@ -1,0 +1,6 @@
+
+DiagnosticModeSet
+
+Enables/disables the diagnostics flag
+0 = Diagnostics disabled
+1 = Diagnostics enabled (default)

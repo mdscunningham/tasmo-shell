@@ -1,0 +1,5 @@
+
+Bh1750Resolution<x>
+
+BH1750 resolution mode. x = BH1750 sensor number (1..2) 
+0..2 = choose sensor resolution (0 = high (default), 1 = high2, 2 = low)

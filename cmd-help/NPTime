@@ -1,0 +1,8 @@
+
+NPTime
+
+{<time>}
+get/set device time. Get if time is omitted, otherwise set device time accordingly <time>:
+0 - sync with Tasmota local time
+1 - sync with Tasmota utc time
+2..4294967295 - set time as epoch

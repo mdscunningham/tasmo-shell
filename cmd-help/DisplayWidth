@@ -1,0 +1,6 @@
+
+DisplayWidth
+
+Specify the display width in pixels (SSD1306 only)
+-or-
+Specify number of digits in TM163x seven-segment display module

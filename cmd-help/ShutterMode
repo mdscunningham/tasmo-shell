@@ -1,0 +1,12 @@
+
+ShutterMode
+
+1..7 (default = 1)
+Defines the mode the shutter will operates the relays, steppers and/or servos. 6=autodetect based on INTERLOCK and GPIO defined. STATUS 13 show the mode.
+1 = normal two relay up/off down/off
+2 = two relay on/off up/down. Must be set manually
+3 = one relay garage mode
+4 = one relay plus stepper motor
+5 = one relay and position servo
+6 = one relay and PWM servo speed controlled by PWM. Position time based
+7 = autodetect (once) based on existance of GPIO definition.

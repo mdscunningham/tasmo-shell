@@ -1,0 +1,5 @@
+
+TempRupDeltInSet
+
+Sets the minimum delta between controlled temperature and setpoint for the controller to switch to ramp-up controller phase (applicable just in Hybrid controller mode)
+0..10 = value in degrees Celsius/Fahrenheit (default 0.4° Celsius)

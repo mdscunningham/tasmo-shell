@@ -1,0 +1,7 @@
+
+MqttClient
+
+1 = reset MQTT client to firmware config (MQTT_CLIENT_ID) and restart
+<value> = set MQTT client and restart.
+You can use the %06X substitution token to replace with last six characters of MAC address.
+If using MQTT to issue this command, if it is used with the device GroupTopic, the command will not be executed.

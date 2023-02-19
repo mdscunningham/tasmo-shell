@@ -1,0 +1,6 @@
+
+MqttUser
+
+0 = clear MQTT user name
+1 = reset MQTT user name to firmware default (MQTT_USER) and restart
+<value> = set MQTT user name and restart

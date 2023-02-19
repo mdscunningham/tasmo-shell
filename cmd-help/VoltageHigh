@@ -1,0 +1,5 @@
+
+VoltageHigh
+
+0 = disable voltage high threshold (default)
+<value> = set voltage high threshold value in V

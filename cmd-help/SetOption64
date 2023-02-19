@@ -1,0 +1,7 @@
+
+SetOption64
+
+Switch between - or _ as sensor name separator
+0 = sensor name index separator is - (hyphen) (default)
+1 = sensor name index separator is _ (underscore)
+Affects DS18X20, DHT, BMP and SHT3X sensor names in tele messages

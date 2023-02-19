@@ -1,0 +1,7 @@
+
+SetOption84
+
+(Experimental) When using AWS IoT, sends a device shadow update (alternative to retained)
+0 = don't update device shadow (default)
+1 = update device shadow
+Note: if the Topic contains '/' they are replaced with '_'

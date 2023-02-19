@@ -1,0 +1,4 @@
+
+SetOption148
+
+1 = enable autorun of ArtNet mode at start. If for any reason listening to UDP port fails, this mode is disabled

@@ -1,0 +1,6 @@
+
+UrlFetch
+
+<url>
+Download a url (http or https) and store the content in the filesystem
+ESP32 only

@@ -1,0 +1,5 @@
+
+TimeRampupMaxSet
+
+Sets the maximum time in minutes for the controller to stay in the ramp-up phase (applicable just in Hybrid controller mode
+0..1440 = value in minutes (default 960 minutes)

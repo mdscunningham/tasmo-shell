@@ -1,0 +1,13 @@
+
+WifiConfig
+
+0 = disable Wi-Fi Manager and reboot (used with alternate AP)
+2 = set Wi-Fi Manager as the current configuration tool and start Wi-Fi Manager (web server at 192.168.4.1) for 3 minutes, then reboot and try to connect Wi-Fi network
+4 = retry other AP without rebooting (default)
+5 = wait until selected AP is available again without rebooting
+6 = Wi-Fi parameters can only be entered via commands in the serial console
+7 = set Wi-Fi Manager (web server at 192.168.4.1) as the current configuration tool restricted to reset settings only. 
+This setting is recommended for devices without an external control/reset button.
+ No longer supported 
+1 = set SmartConfig (Android/iOS) for 3 minutes
+3 = set WPS for 3 minutes

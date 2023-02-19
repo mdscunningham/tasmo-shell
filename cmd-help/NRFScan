@@ -1,0 +1,7 @@
+
+NRFScan
+
+Scan for regular BLE-advertisements and show a list in the console
+0 = start a new scan list
+1 = append to the scan list
+2 = stop running scan

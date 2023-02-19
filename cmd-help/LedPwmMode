@@ -1,0 +1,7 @@
+
+LedPwmMode<x>
+
+Control status LED light mode (x = 0..4)
+0 = digital on/off mode (default)
+1 = PWM mode
+2 = toggle between modes

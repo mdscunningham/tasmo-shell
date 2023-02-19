@@ -1,0 +1,6 @@
+
+SetOption61
+
+Force local operation when ButtonTopic or SwitchTopic is set.
+0 = disable (default)
+1 = enable

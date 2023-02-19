@@ -1,0 +1,4 @@
+
+SetOption42
+
+0..255 = set over-temperature (Celsius only) threshold resulting in power off on all energy monitoring devices (default = 90)

@@ -1,0 +1,6 @@
+
+TempFormatSet
+
+Sets the temperature format
+0 = Degrees Celsius (default)
+1 = Degrees Fahrenheit

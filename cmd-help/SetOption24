@@ -1,0 +1,6 @@
+
+SetOption24
+
+Set pressure units 
+0 = hPa (default)
+1 = mmHg

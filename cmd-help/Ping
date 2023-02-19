@@ -1,0 +1,8 @@
+
+Ping<x> <addr>
+
+<x> = 0..8 = the number of ICMP packets to send, 0 uses the default (4)
+<addr> = address to send Ping, either in numerical format 192.168.1.200 or domain name tasmota.com
+ 
+(requires #define USE_PING)
+Example Ping4 192.168.1.203: RSL: tele/tasmota_xxx/RESULT = {""Ping"":{""192.168.1.203"":{""Reachable"":true,""Success"":4,""Timeout"":0,""MinTime"":59,""MaxTime"":167,""AvgTime"":116}}}

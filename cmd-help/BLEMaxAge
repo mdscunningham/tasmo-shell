@@ -1,0 +1,6 @@
+
+BLEMaxAge
+
+Set the timeout for device adverts.
+BLEMaxAge n = set the devices timeout to n seconds.
+BLEMaxAge = display the device timeout.

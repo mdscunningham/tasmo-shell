@@ -1,0 +1,5 @@
+
+Upload
+
+1 = download firmware from OtaUrl and restart
+<value> = download firmware from OtaUrl if <value> is higher than device version

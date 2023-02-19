@@ -1,0 +1,5 @@
+
+CtrDutyCycleRead
+
+Returns the duty cycle of the controller
+0..100 = value in %

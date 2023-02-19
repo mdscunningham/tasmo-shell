@@ -1,0 +1,6 @@
+
+SetOption138
+
+Align GUI energy multicolumn layout in webUI
+0 = left/center (default)
+1 = right

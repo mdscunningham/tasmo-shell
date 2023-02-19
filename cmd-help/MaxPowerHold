@@ -1,0 +1,5 @@
+
+MaxPowerHold
+
+1 = set default time to 10 seconds to stay over MaxPower before power off
+<value> = set time in seconds to stay over MaxPower before power off

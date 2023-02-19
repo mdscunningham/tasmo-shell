@@ -1,0 +1,6 @@
+
+SetOption47
+
+3..255 = delay power on relay state in seconds to reduce power surge
+1 = delays until network connected
+2 = delays until MQTT connected

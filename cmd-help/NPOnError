@@ -1,0 +1,7 @@
+
+NPOnError
+
+{<repeat>}
+get/set auto-repeat Modbus read/write commands on error (repeat = 0..10). Get if repeat is omitted, otherwise set accordingly <repeat>:
+0 - disable auto-repeat on read/write error
+1..10 - repeat commands n times until ok

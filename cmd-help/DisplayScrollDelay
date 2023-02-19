@@ -1,0 +1,7 @@
+
+DisplayScrollDelay
+(TM1637, TM1638 and MAX7219) 
+
+ TM1638 and MAX7219) ","0..15 Sets the speed of text scroll. Smaller delay implies faster scrolling. 
+ 
+See TM163x for details.

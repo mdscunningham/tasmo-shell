@@ -1,0 +1,4 @@
+
+HM10Period
+
+Show interval in seconds between sensor read cycles. Set to TelePeriod value at boot.

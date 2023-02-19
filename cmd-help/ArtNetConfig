@@ -1,0 +1,14 @@
+
+ArtNetConfig <json>
+
+Example ArtNetConfig {""Rows"":5, ""Cols"":5, ""Offset"":0, ""Alternate"":false, ""Universe"":0}
+There are two modes for ArtNet configuration: simple light or adressable leds.
+In simple Light mode, ""cols"" is zero. Only ""Universe"" needs to be specified.
+Example: ArtNetConfig {""Cols"":0, ""Universe"":0}
+In Adressable Light mode, all parameters can be specified.
+ 
+Rows: number of rows of display, 1 for light mode or single strip
+Cols: number of columns of the display, or length of the strip, or 0 for single light
+""Offset"": number of adressable leds to skip
+Alternate: (true/false) indicates that every other line is reversed (common in large matrix)
+Universe: starting DMX Universe number for the first line (0 based so you may need to substract 1 from software)

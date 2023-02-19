@@ -1,0 +1,9 @@
+
+MultiPWM
+SetOption68
+
+Multi-channel PWM instead of a single light
+0 = Treat PWM as a single light (default)
+1 = Treat PWM as separate channels. In this mode, use Power<x> to turn lights on and off, and Channel<x> to change the value of each channel.
+Color still works to set all channels at once.
+Requires restart after change

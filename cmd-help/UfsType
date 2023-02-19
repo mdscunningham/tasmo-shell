@@ -1,0 +1,8 @@
+
+UfsType
+
+Get filesystem type
+0 = none
+1 = SD card
+2 = Flash file
+3 = LittleFS

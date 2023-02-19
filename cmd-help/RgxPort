@@ -1,0 +1,4 @@
+
+RgxPort
+
+tcp|udp, gateway_port, client_mac, client_port = range extender port forwarding

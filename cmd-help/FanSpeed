@@ -1,0 +1,8 @@
+
+FanSpeed
+
+Fan speed control (iFan02/iFan03 only)
+0 = turn fan OFF
+1..3 = set fan speed
++ = increase fan speed 
+- = decrease fan speed

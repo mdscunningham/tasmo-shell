@@ -1,0 +1,5 @@
+
+NRFPage
+
+Show the maximum number of sensors shown per page in the webUI list.
+<value> = set number of sensors (default = 4)

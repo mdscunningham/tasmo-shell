@@ -1,0 +1,6 @@
+
+SetOption8
+
+Show temperature in
+0= Celsius (default)
+1 = Fahrenheit

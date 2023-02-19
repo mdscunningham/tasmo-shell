@@ -1,0 +1,6 @@
+
+SetOption86
+
+PWM Dimmer only! Turn brightness LED's off 5 seconds after last change
+0 = disable (default)
+1 = enable

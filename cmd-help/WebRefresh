@@ -1,0 +1,5 @@
+
+WebRefresh
+
+Web page refresh
+1000..10000 = set refresh time in milliseconds (default = 2345)

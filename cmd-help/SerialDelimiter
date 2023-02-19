@@ -1,0 +1,8 @@
+
+SerialDelimiter
+
+<value> = set serial delimiter to escape character code or ASCII character
+1..127 = set serial delimiter to decimal ASCII
+128 = only allow ASCII characters 32 to 127 in response text
+254 = disable serial delimiter & post HEX string
+129..253 or 255 = disable serial delimiter (default = 255)

@@ -1,0 +1,6 @@
+
+SetOption139
+
+When SetOption24 1 switch pressure unit to:
+0 = mmHg (default)
+1 = inHg

@@ -1,0 +1,6 @@
+
+RfSync
+
+1 = reset start sync pulse time to 8470 microseconds
+2..32767 = set start sync pulse time in microseconds
+#2..#7FFF = set start sync pulse time in hexadecimal microseconds

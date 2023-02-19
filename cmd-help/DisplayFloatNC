@@ -1,0 +1,7 @@
+
+DisplayFloatNC 
+(TM1637, TM1638 and MAX7219) 
+
+ TM1638 and MAX7219) ","num[, position[, precision[, length]]] 
+Displays float (with decimal point) as above, but without clearing first. Usage same as above. 
+See TM163x for details.

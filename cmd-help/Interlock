@@ -1,0 +1,10 @@
+
+Interlock
+
+Relay interlock mode and group selection.
+0 = disable relay interlock for all relays (i.e., each relay is self-locking) (default)
+1 = set interlock mode for selected relays
+Add up to 8 relays in 1 to 4 interlock groups, each separated by a space. For example
+1,2 3,4 = Group Relay1 and Relay2 in group 1 and Relay3 and Relay4 in group 2 (note the space between the two groups) 
+1,2,3 = group Relay1, Relay2 and Relay3 in a single interlock group 
+1 3 2,4 = Relay1 is in group 1, Relay3 in group 2, Relay2 and Relay4 in group 3

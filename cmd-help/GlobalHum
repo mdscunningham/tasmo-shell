@@ -1,0 +1,4 @@
+
+GlobalHum
+
+0.0..100.0 = Set global Humidity for some Sensors that uses global Humidity.

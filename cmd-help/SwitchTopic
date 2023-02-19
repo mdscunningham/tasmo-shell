@@ -1,0 +1,9 @@
+
+SwitchTopic
+
+<value> = set MQTT switch topic
+0 = disable use of MQTT switch topic
+1 = set MQTT switch topic to device %topic%
+2 = reset MQTT switch topic to firmware default (MQTT_SWITCH_TOPIC) (default = 0)
+Read more about this.
+If using MQTT to issue this command, if it is used with the device GroupTopic, the command will not be executed.

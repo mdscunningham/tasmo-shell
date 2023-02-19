@@ -1,0 +1,17 @@
+
+DisplayModel
+
+Set display model:
+1 = I2C LCD Display (default addresses 0x27, 0x3F)
+2 = SSD1306 OLED 128x32/128x64/68x48 (default I2C addresses 0x3C, 0x3D)
+3 = HT16K33 8x8 Dot-Matrix
+4 = ILI9341 TFT LCD
+5 = 2.9 inch E-Paper Display 296x128 (software 3-wire SPI)
+6 = 4.2 inch E-Paper Display 400x300 (software 3-wire SPI)
+7 = SH1106 OLED 128x64 (default I2C address 0x3c)
+8 = ILI9488 TFT 480x320 (capacitive touch, hardware 3-wire SPI)
+9 = SSD1351 color OLED 128x128 (hardware 3-wire SPI)
+10 = RA8867 TFT LCD 1024x600 (capacitive touch, hardware 4-wire SPI)
+15 = TM1637 7-segment, 4-,6- and 8-digit displays (TM1637, TM1638 and MAX7219), hardware 2- and 3-wire I2C-like interface
+16 = LilyGO T5-4.7 E-Paper display board
+17 = Universal Display Driver powered displays

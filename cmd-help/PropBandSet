@@ -1,0 +1,5 @@
+
+PropBandSet
+
+Sets the value of the proportional band of the PI controller
+0..20 = value in degrees Celsius (default 4 degrees Celsius)

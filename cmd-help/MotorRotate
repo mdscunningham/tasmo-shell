@@ -1,0 +1,4 @@
+
+MotorRotate
+
+integer Rotate the motor the given number of degrees (positive values: clockwise, negative values: counterclockwise)

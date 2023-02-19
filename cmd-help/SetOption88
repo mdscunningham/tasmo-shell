@@ -1,0 +1,6 @@
+
+SetOption88
+
+Make each relay part of a separate device group. Relay 1 updates are sent to/received from device group 1, relay 2 updates are sent to/received from device group 2, etc. For the PWM Dimmer module, make each button be associated with a different device group.
+0 = disable (default)
+1 = enable

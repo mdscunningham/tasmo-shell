@@ -1,0 +1,4 @@
+
+ShutterToggleDir<x>
+
+Toggle the shutter - close the shutter when it previously moved to open, open it otherwise

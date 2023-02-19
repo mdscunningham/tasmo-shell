@@ -1,0 +1,4 @@
+
+ShutterChange<x>
+
+-100..100 Moves the shutter from the current position relatively in %. If the resulting position is below 0 or above 100 it will be capped. Command can also be executed during movement and will change the target position.

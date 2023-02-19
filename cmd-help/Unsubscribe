@@ -1,0 +1,6 @@
+
+Unsubscribe
+
+Unsubscribe from topics subscribed to with Subscribe 
+= unsubscribe all topics
+<eventName> = unsubscribe from a specific MQTT topic

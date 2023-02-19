@@ -1,0 +1,6 @@
+
+BLEAlias
+
+Set Alias names for devices. A device may be referred to by its alias in subsequent commands
+BLEAlias mac=alias mac=alias ... = set one or more aliases from devices.
+BLEAlias2 = clear all aliases.

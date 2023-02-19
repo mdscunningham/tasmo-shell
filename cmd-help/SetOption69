@@ -1,0 +1,7 @@
+
+SetOption69
+
+Deprecated in favor of DimmerRange 
+By default Tuya dimmers won't dim below 10% because some don't function very well that way.
+0 = disable Tuya dimmer 10% lower limit
+1 = enable Tuya dimmer 10% lower limit (default)

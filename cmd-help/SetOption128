@@ -1,0 +1,6 @@
+
+SetOption128
+
+Web referrer check for HTTP API commands
+0 = disabled
+1 = enabled (default)

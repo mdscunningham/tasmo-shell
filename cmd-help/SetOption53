@@ -1,0 +1,6 @@
+
+SetOption53
+
+Display hostname and IP address in GUI
+0 = disable (default)
+1 = enable

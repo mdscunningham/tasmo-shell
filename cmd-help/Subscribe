@@ -1,0 +1,6 @@
+
+Subscribe
+
+Subscribes to an MQTT topic without appended /# and assigns an Event name to it.
+<eventName>, <mqttTopic> [, <key>] = Read more...
+= list all topics currently subscribed

@@ -1,0 +1,5 @@
+
+ButtonRetain
+
+0 = disable use of MQTT retain flag (default)
+1 = enable MQTT retain flag on button press

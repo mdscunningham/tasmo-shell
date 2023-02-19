@@ -1,0 +1,6 @@
+
+SetOption80
+
+Blinds and shutters support
+0 = disable blinds and shutters support (default)
+1 = enable blinds and shutters support

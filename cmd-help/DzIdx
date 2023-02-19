@@ -1,0 +1,6 @@
+
+DzIdx<x>
+
+Show Domoticz Relay idx <x> (x = 1..4)
+0 = disable use of Relay idx <x> (default)
+<value> = Show Relay idx <x>

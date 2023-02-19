@@ -1,0 +1,6 @@
+
+ZbEZSPSend<x> <hex>
+
+(EZSP only) Send a raw EZSP message. This is a low-level command, and requires to manually build the ZCL parameters. Most common usage will be provided as high-level functions.
+<x>: 1=high-level EZSP command, 2=low-level EZSP frame, 3=low-level EZSP/ASH frame
+<hex> = hex string of the message

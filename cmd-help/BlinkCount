@@ -1,0 +1,6 @@
+
+BlinkCount
+
+Number of relay toggles (blinks) (does not control the status LED)
+0 = blink many times before restoring power state 
+1..32000 = set number of blinks (default = 10)

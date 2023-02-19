@@ -1,0 +1,5 @@
+
+CounterType<x>
+
+0 = set Counter<x> as pulse Counter
+1 = set Counter<x> as pulse Timer

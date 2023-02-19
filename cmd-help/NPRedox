@@ -1,0 +1,7 @@
+
+NPRedox
+
+{<setpoint>}
+(only available if redox module is installed)
+get/set redox set point in mV (setpoint = 0..100, the upper limit of the range may vary depending on the MBF_PAR_HIDRO_NOM register)
+get current set point if is omitted, otherwise set

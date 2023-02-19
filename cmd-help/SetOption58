@@ -1,0 +1,6 @@
+
+SetOption58
+
+IR Raw data in JSON payload
+0 = disable (default)
+1 = enable

@@ -1,0 +1,7 @@
+
+Speed
+
+1..40 = set fade speed from fast 1 to very slow 40
++ = increase speed
+- = decrease speed
+The Speed value represents the time in 0.5s to fade from 0 to 100% (or the reverse). Example: Speed 4 takes 2.0s to fade from full brightness to black, or 0.5s to move from 75% to 100%.

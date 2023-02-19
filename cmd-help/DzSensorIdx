@@ -1,0 +1,6 @@
+
+DzSensorIdx<x>
+
+Show Domoticz Sensor idx <x> (x = 1..5)
+0 = disable use of Sensor idx <x> (default)
+<value> = Show Sensor idx <x>

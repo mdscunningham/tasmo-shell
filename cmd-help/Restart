@@ -1,0 +1,10 @@
+
+Restart
+
+1 = restart device with configuration saved to flash
+2 = halt system (needs hardware reset or power cycle to restart)
+99 = force restart device without configuration save
+For debug and testing stack trace dumps only:
+-1 = force an Exception (28) crash
+-2 = force a Soft WDT reset (after a freeze of 2 seconds)
+-3 = force an OS watchdog reset (after a freeze of 120 seconds, caution!)

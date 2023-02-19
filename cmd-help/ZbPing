@@ -1,0 +1,6 @@
+
+ZbPing
+
+<device> = test availability of Zigbee device. If the device is connected and not sleeping, you should receive a ZbPing message within the next second.
+Example: ZbPing 0x5ADF responds with:
+{""ZbPing"":{""Device"":""0x5ADF"",""IEEEAddr"":""0x90FD9FFFFE03B051""}}

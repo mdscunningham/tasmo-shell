@@ -1,0 +1,6 @@
+
+SensorInputSet
+
+Sets the temperature sensor to be used
+0 = MQTT (default)
+1 = Local sensor (can be changed by define, default DS18B20)

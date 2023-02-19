@@ -1,0 +1,5 @@
+
+SetOption33
+
+Number of times to retry applying power after the power has been switched off because of exceeding the maximum power limit
+1..250 = set number of retries (default = 5)

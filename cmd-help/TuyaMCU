@@ -1,0 +1,6 @@
+
+TuyaMCU
+
+Used to map functions in TuyaMCU 
+<fnId>,<dpId> = read more...
+<fnId>,0 = remove setting for fnId

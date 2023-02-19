@@ -1,0 +1,6 @@
+
+MI32Period
+
+Display/Set the active scan and tele period for the MI32 driver.
+MI32Period = display the period in seconds.
+MI32Period n = Set the MI driver active read and tele period to n seconds.

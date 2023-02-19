@@ -1,0 +1,17 @@
+
+NPFiltrationmode
+
+{<mode>}
+get/set filtration mode (mode = 0..4 or 13). Get if mode is omitted, otherwise set accordingly <mode>:
+0 - MANUAL
+allows to turn the filtration (and all other systems that depend on it) on and off
+1 - AUTO
+allows filtering to be turned on and off according to the settings of the MBF_PAR_TIMER_BLOCK_FILT_INT timers.
+2 - HEATING
+similar to the AUTO mode, but includes setting the temperature for the heating function. This mode is activated only if the BF_PAR_HEATING_MODE register is at 1 and there is a heating relay assigned.
+3 - SMART
+adjusts the pump operating times depending on the temperature. This mode is activated only if the MBF_PAR_TEMPERATURE_ACTIVE register is at 1.
+4 - INTELLIGENT
+performs an intelligent filtration process in combination with the heating function. This mode is activated only if the MBF_PAR_HEATING_MODE register is at 1 and there is a heating relay assigned.
+13 - BACKWASH
+started when the backwash operation is activated.

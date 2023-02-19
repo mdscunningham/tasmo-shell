@@ -1,0 +1,12 @@
+
+ZbStatus<x>
+
+Display Zigbee devices seen on the network since boot
+<device> (optional)
+= all devices
+This command provides three levels of increasing detail according to <x>
+ZbStatus1 Display Short Address, and Friendly Name
+ZbStatus2 Also include Manufacturer ID and Model ID
+ZbStatus3 Also include a list of endpoints and the clusterIds supported by each endpoint
+Example: ZbStatus3 1 requests all details for device number 1
+Requested information may exceed maximum result size allowed by Tasmota. In this case, the output will be truncated. To get all of the desired information, request results for a specific device individually.

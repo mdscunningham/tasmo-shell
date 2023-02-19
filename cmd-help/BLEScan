@@ -1,0 +1,7 @@
+
+BLEScan
+
+Cause/Configure BLE a scan
+BLEScan0 0..1 = enable or disable Active scanning. (an active scan will gather extra data from devices, including name)
+BLEScan = Trigger a 20s scan now if in BLEMode1
+BLEScan n = Trigger a scan now for n seconds if in BLEMode1

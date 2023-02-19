@@ -1,0 +1,5 @@
+
+Sensor18
+
+PMSx003 particle dust sensor
+0..32000 = control sensor polling interval to extend lifetime

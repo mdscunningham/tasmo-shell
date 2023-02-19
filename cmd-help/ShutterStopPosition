@@ -1,0 +1,4 @@
+
+ShutterStopPosition<x>
+
+Stop the shutter when currently moving, set it to position 0..100, UP, DOWN, STOP, TOGGLE otherwise

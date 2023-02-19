@@ -1,0 +1,7 @@
+
+ControllerModeSet
+
+Sets the controller mode (used for thermostat in automatic mode)
+0 = Hybrid controller (Predictive ramp-up controller and PI, default)
+1 = PI controller
+2 = Predictive ramp-up controller

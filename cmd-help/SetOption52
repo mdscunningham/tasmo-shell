@@ -1,0 +1,6 @@
+
+SetOption52
+
+Control display of optional time offset from UTC in JSON payloads
+0 = disable (default)
+1 = enable

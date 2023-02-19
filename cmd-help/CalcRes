@@ -1,0 +1,5 @@
+
+CalcRes
+
+Current calculation resolution
+0..7 = set number of decimal places to be used in Add, Sub, Mult and Scale

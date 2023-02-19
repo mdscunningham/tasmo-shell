@@ -1,0 +1,4 @@
+
+MotorMIS
+
+1,2,4,8,16 Set micro stepping increment - 1/1 (full steps) to 1/16 (default = 1)

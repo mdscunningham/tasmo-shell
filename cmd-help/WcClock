@@ -1,0 +1,4 @@
+
+WcClock
+
+10..200 = set clock speed in MHz (default = 20)

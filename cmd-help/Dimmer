@@ -1,0 +1,9 @@
+
+Dimmer<x>
+
+Commands available only when SetOption37 >= 128 (#6819)
+<value> same as in Dimmer
+Dimmer0 <value> = set dimming for all channels
+Dimmer1 <value> = set dimming for RGB channels
+Dimmer2 <value> = set dimming for white channels
+Dimmer4 <value> = allow retaining brightness ratio between white and color channels when setting dimmer for linked lights

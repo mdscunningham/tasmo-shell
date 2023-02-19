@@ -1,0 +1,4 @@
+
+ShutterStopToggle<x>
+
+Stop the shutter when currently moving, do ShutterToggle otherwise

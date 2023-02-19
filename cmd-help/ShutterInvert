@@ -1,0 +1,5 @@
+
+ShutterInvert<x>
+
+0 = use default shutter positioning (0 = Closed, 100 = Open)
+1 = invert shutter positioning (100 = Closed, 0 = Open) (e.g., if used with KNX)

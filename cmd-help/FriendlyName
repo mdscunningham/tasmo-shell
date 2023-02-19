@@ -1,0 +1,5 @@
+
+FriendlyName<x>
+
+1 = Reset friendly name to firmware default
+<value> = set friendly name (32 char limit)

@@ -1,0 +1,6 @@
+
+ZbProbe
+
+<device>= probe a Zigbee device to get additional information including its IEEEaddress, vendor and model names, endpoints, and supported clusters per endpoint.
+Device probe is performed automatically when a new Zigbee device connects.
+Battery powered Zigbee devices can not be probed in general because they are usually in sleep mode.

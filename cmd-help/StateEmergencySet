@@ -1,0 +1,6 @@
+
+StateEmergencySet
+
+Sets the thermostat emergency flag
+0 = Emergency flag off (default)
+1 = Emergency flag on (thermostat switches to off state)

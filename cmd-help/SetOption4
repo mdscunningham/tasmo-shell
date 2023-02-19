@@ -1,0 +1,6 @@
+
+SetOption4
+
+Return MQTT response as
+0 = RESULT topic (default)
+1 = %COMMAND% topic

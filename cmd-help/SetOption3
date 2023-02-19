@@ -1,0 +1,6 @@
+
+SetOption3
+
+MQTT 
+0 = disable MQTT
+1 = enable MQTT (default)

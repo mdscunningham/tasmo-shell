@@ -1,0 +1,5 @@
+
+SetOption135
+
+Disables Display Splash screen (for all drivers, universal & LVGL)
+1 = Splash screen disabled, 0 = Splash screen displayed

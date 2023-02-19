@@ -1,0 +1,6 @@
+
+RfCode
+
+Show last sent 24-bit user code
+1..8388607 = send 24-bit user code
+#1..#7FFFFF = send 24-bit hexadecimal user code using RfSync, RfLow and RfHigh timing

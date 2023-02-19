@@ -1,0 +1,5 @@
+
+PWMRange
+
+1 = reset maximum PWM range to 1023
+255..1023 = set maximum PWM range

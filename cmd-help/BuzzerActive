@@ -1,0 +1,7 @@
+
+BuzzerActive
+SetOption67
+
+iFan03 Buzzer control
+0 = disable Sonoff iFan03 buzzer (default)
+1 = enable Sonoff iFan03 buzzer

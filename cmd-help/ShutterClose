@@ -1,0 +1,4 @@
+
+ShutterClose<x>
+
+Engage the relay to close the shutter. This action can be requested at any time. Number of shutter can be the index or the argument

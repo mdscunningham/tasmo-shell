@@ -1,0 +1,5 @@
+
+SetOption117
+
+Run fade at fixed duration instead of fixed slew rate
+1 = enable

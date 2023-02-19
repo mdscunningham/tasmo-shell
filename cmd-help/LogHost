@@ -1,0 +1,5 @@
+
+LogHost
+
+1 = reset syslog host to firmware default (SYS_LOG_HOST)
+<value> = set syslog host

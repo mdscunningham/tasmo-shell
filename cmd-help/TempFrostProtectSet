@@ -1,0 +1,5 @@
+
+TempFrostProtectSet
+
+Sets the frost protection temperature. The controller, if in automatic mode, will never allow the temperature to sink below this value
+<0..12> = Temperature value in degrees Celsius/Fahrenheit (default 4.0° Celsius) 

@@ -1,0 +1,4 @@
+
+MqttRetry
+
+10..32000 = set MQTT connection retry timer in seconds (default = 10)

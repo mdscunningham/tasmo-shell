@@ -1,0 +1,5 @@
+
+CurrentHigh
+
+0 = disable current high threshold (default)
+<value> = set current high threshold value in milliamps

@@ -1,0 +1,6 @@
+
+SetOption77
+
+Do not power off if a slider is moved to far left
+0 = disable (default)
+1 = enable

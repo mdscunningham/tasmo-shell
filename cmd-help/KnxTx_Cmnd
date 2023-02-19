@@ -1,0 +1,4 @@
+
+KnxTx_Cmnd<x>
+
+0 or 1 = send command using slot <x> set in KNX Menu at KNX_TX

@@ -1,0 +1,7 @@
+
+SetOption51
+
+Enable GPIO9 and GPIO10 component selections in Module Configuration
+WARNING Do not use on ESP8266 devices! 
+0 = disable (default)
+1 = enable

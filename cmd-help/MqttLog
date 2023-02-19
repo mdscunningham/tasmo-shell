@@ -1,0 +1,8 @@
+
+MqttLog
+
+0 = disable logging via MQTT (default)
+1 = show only error messages
+2 = show error and info messages
+3 = show error, info and debug messages
+4 = show error, info and more debug messages

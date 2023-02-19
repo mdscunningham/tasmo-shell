@@ -1,0 +1,5 @@
+
+MI32Key
+
+Add a decryption key.
+MI32Key hexkey = add a 44 character decryption key to the keys list.

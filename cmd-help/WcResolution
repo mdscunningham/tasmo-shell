@@ -1,0 +1,15 @@
+
+WcResolution
+
+Set camera resolution.
+0 = 96x96 (96x96)
+1 = QQVGA2 (128x160)
+2 = QCIF (176x144)
+3 = HQVGA (240x176)
+4 = QVGA (320x240)
+5 = CIF (400x296)
+6 = VGA (640x480)
+7 = SVGA (800x600)
+8 = XGA (1024x768)
+9 = SXGA (1280x1024)
+10 = UXGA (1600x1200)

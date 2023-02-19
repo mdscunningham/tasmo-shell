@@ -1,0 +1,7 @@
+
+SetOption83
+
+Uses Zigbee device friendly name instead of 16 bits short addresses as JSON key when reporting values and commands
+0 = JSON key as short address
+1 = JSON key as friendly name
+See ZbName <device>,<name>

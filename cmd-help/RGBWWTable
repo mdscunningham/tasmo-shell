@@ -1,0 +1,6 @@
+
+RGBWWTable
+
+Control light intensity of unbalanced PWM channels
+PWM1,PWM2,PWM3,PWM4,PWM5 = channel range with values 0..255 (default =255,255,255,255,255)
+Range adjustment is computed after Gamma correction.

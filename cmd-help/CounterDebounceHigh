@@ -1,0 +1,5 @@
+
+CounterDebounceHigh
+
+0 = turn off counter debounce high
+1..32000 = set counter debounce high time in milliseconds. Allow individual debounce times for high pulse widths to discard non valid falling edges. These are checked before legacy CounterDebounce checks distance between two valid falling edges. When unequal zero tasmota will check falling and rising edges on the counter's GPIO. For CounterDebounceHigh any GPIO change from high to low hat happens after the GPIO was not high for at least CounterDebounceHigh will be ignored. As an example you can set CounterDebounceHigh 100 to allow a valid minimum distance between a rising and falling edge equal to 100ms while having a final CounterDebounce 500 check between to successive valid falling edges equal to 500ms.

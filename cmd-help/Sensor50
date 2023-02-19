@@ -1,0 +1,10 @@
+
+Sensor50
+
+PAJ7620 gesture sensor
+0 = sensor muted, no readings in Tasmota
+1= gesture mode
+2 = proximity mode
+3 = corner mode
+4 = PIN mode
+5 = cursor mode

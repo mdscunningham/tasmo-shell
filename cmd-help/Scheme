@@ -1,0 +1,23 @@
+
+Scheme
+
+Light effects
++ = next scheme
+- = previous scheme
+0 = single color for LED light (default)
+1 = start wake up sequence (same as Wakeup)
+2 = cycle up through colors using Speed option
+3 = cycle down through colors using Speed option
+4 = random cycle through colors using Speed and Fade
+Use <value>, <startcolor> if you want to set the starting color of selected scheme
+ 
+Following schemes are usable only with addressable LEDs, e.g. WS281X, Neopixel
+5 = clock mode (example)
+6 = candlelight pattern
+7 = RGB pattern
+8 = Christmas pattern
+9 = Hanukkah pattern
+10 = Kwanzaa pattern
+11 = rainbow pattern
+12 = fire pattern
+13 = stairs pattern

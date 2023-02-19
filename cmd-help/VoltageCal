@@ -1,0 +1,6 @@
+
+VoltageCal
+
+Set calibration offset value for reported Voltage telemetry reading
+1000..32000 (default = 1950)
+Allows finer calibration for energy monitoring devices

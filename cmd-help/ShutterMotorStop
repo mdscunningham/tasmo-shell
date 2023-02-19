@@ -1,0 +1,5 @@
+
+ShutterMotorStop
+
+0 .. 64000 (default = 500)
+time in milliseconds, one relay must be off before the other one can start. This control the OFF time on TOGGLE and POSITION change commands that require a TOGGLE. Also in GarageMode this sets the wait time between two commands. Equal for all shutters.

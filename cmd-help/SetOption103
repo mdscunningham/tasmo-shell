@@ -1,0 +1,6 @@
+
+SetOption103
+
+Set TLS mode
+0 = disable TLS
+1 = enable TLS

@@ -1,0 +1,5 @@
+
+TimeMinTurnoffActionSet
+
+Sets the minimum time in minutes within a cycle for the PI controller to switch off the output, below it, it will stay on
+0..1440 = value in minutes (default 3 minutes)

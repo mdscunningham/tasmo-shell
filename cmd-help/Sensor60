@@ -1,0 +1,20 @@
+
+Sensor60
+
+GPS
+0 = write to all available sectors, then restart and overwrite the older ones
+1 = write to all available sectors, then restart and overwrite the older ones
+2 = filter out horizontal drift noise
+3 = turn off noise filter
+4 = start recording, new data will be appended
+5 = start new recording, old data will lost
+6 = stop recording, download link will be visible in webUI
+7 = send mqtt on new position + TELE (consider to set TELE to a very high value)
+8 = only TELE message
+9 = start NTP server
+10 = deactivate NTP server
+11 = force update of Tasmota-system-UTC with every new GPS-time-message
+12 = do not update of Tasmota-system-UTC with every new GPS-time-message
+13 = set latitude and longitude in settings
+14 = open virtual serial port over TCP, usable for u-center
+15 = pause virtual serial port over TCP

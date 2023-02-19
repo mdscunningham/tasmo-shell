@@ -1,0 +1,4 @@
+
+SetOption38
+
+6..255 = set IRReceive protocol detection sensitivity minimizing UNKNOWN protocols

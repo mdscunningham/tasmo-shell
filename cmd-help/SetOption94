@@ -1,0 +1,6 @@
+
+SetOption94
+
+Select MAX31855 or MAX6675 thermocouple support
+0 = Use MAX31855 protocol (default) 
+1 = Use simpler MAX6675 protocol instead of MAX31855

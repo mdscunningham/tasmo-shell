@@ -1,0 +1,8 @@
+
+Width<x>
+
+x = 1..4
+1 = 0..4 = LED group width (Scheme 6..12 only)
+2 = 0..32 = seconds hand width (Scheme 5 only)
+3 = 0..32 = minutes hand width (Scheme 5 only)
+4 = 0..32 = hour hand width (Scheme 5 only)

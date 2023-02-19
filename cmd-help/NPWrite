@@ -1,0 +1,5 @@
+
+NPWrite
+
+<addr> <data> {<data>...}
+write 16-bit register (addr = 0..0x060F, data = 0..0xFFFF). Use of data max 10 times

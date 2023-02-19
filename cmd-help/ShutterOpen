@@ -1,0 +1,4 @@
+
+ShutterOpen<x>
+
+Engage the relay to open the shutter. This action can be requested at any time. Number of shutter can be index or the argument

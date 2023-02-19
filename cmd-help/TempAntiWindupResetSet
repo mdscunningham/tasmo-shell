@@ -1,0 +1,5 @@
+
+TempAntiWindupResetSet
+
+Sets the value of the delta between controlled temperature and setpoint above which the integral part of the PI controller will be set to 0, in degrees Celsius/Fahrenheit
+0..10 = value in degrees (default 0.8° Celsius)

@@ -1,0 +1,4 @@
+
+WakeUpDuration
+
+1..3000 = set wake up duration in seconds

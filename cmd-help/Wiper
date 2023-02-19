@@ -1,0 +1,7 @@
+
+Wiper
+
+DS3502 contains a single potentiometer whose wiper position is controlled by the value in the Wiper Register (WR) represented by x = 0..3
+POTI 0..127 = set POTI for wiper x
+STATUS = get wiper position for wiper x
+RESET = reset settings for wiper x

@@ -1,0 +1,7 @@
+
+AlexaCTRange
+SetOption82
+
+Reduce the CT range from 153..500 to 200..380 to accommodate with Alexa range
+0 = CT ranges from 153 to 500 (default)
+1 = CT ranges from 200 to 380 (although you can still set in from 153 to 500)

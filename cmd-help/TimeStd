@@ -1,0 +1,16 @@
+
+TimeStd
+TimeDst
+
+Set policies for the beginning of daylight saving time (DST) and return back to standard time (STD) 
+Use the Tasmota timezone table to find the commands for your time zone.
+0 = reset parameters to firmware defaults
+H,W,M,D,h,T
+H = hemisphere (0 = northern hemisphere / 1 = southern hemisphere)
+W = week (0 = last week of month, 1..4 = first .. fourth)
+M = month (1..12)
+D = day of week (1..7 1 = Sunday 7 = Saturday)
+h = hour (0..23) in local time
+T = time zone (-780..780) (offset from UTC in MINUTES - 780min / 60min=13hrs)
+Example: TIMEDST 1,1,10,1,2,660
+_If time zone is NOT 99, DST is not used (even if displayed) see

@@ -1,0 +1,8 @@
+
+TuyaRGB
+
+Set correct format of color reporting by tuyaMCU 
+0 - Type 1, 12 characters uppercase. Example: 00DF00DC0244 (default)
+1 - Type 1, 12 characters lowercase. Example: 008003e8037a
+2 - Type 2, 14 characters uppercase. Example: 00FF00FFFF6464
+3 - Type 2, 14 characters lowercase. Example: 00e420ffff6464

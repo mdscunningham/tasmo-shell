@@ -1,0 +1,6 @@
+
+DS18Alias
+
+List DS18x20 sensors with full IDs
+<sensor ID>,<n> = set sensor alias (number)
+<sensor ID>,0 = remove alias

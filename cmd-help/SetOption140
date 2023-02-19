@@ -1,0 +1,5 @@
+
+SetOption140
+
+0 = open clean MQTT session (default)
+1 = open persistent MQTT session

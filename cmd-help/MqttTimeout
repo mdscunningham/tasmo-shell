@@ -1,0 +1,4 @@
+
+MqttTimeout
+
+1..100 = set MQTT socket timeout (default = 4)

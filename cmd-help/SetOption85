@@ -1,0 +1,6 @@
+
+SetOption85
+
+Device group support
+0 = disable (default)
+1 = enable

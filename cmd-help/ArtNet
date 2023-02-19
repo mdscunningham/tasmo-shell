@@ -1,0 +1,4 @@
+
+ArtNet
+
+Start, On>, or1: Start ArtNet mode, listen to UDP port 6454 and forceSetOption148 1for autorun at restart<BR>Stop,Offor0: Stop ArtNet mode, close UDP port and forceSetOption148 0` to disable ArtNet mode at restart

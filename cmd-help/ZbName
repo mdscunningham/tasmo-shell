@@ -1,0 +1,8 @@
+
+ZbName
+
+Sets or reads the Zigbee device friendly name (up to 32 characters).
+<device>,<name> sets the new friendly name
+<device>, (empty name) clears the friendly name
+<device> displays the current friendly name
+Also see SetOption83 1 to enable friendly names as JSON keys instead of ShortAddr.

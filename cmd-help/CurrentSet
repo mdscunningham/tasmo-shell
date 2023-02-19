@@ -1,0 +1,5 @@
+
+CurrentSet<x
+
+<value> = calibrate current to target value in mA
+x = 1 or 2 indicating phase

@@ -1,0 +1,7 @@
+
+LedMask
+
+Set a bitmask specifying which relays control the LED indicator. Read more... 
+<bitmask> = bitwise value representing each relay. Values may be entered as either hexadecimal or decimal values (e.g., 0xFFFF = 65535).
+0xFFFF (= 1111 1111 1111 1111) All relays control the power LED (default)
+LedState must be enabled (i.e., != 0) in order for LedMask to take effect.

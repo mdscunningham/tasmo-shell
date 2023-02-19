@@ -1,0 +1,4 @@
+
+SetOption149
+
+1 = DNS try to resolved the address as IPv6 first and IPv4 if none is found. Default behavior is to look for IPv4 address first. See IPv6

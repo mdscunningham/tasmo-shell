@@ -1,0 +1,13 @@
+
+DisplayRaw 
+(TM1637, TM1638 and MAX7219) 
+
+ TM1638 and MAX7219) ","position, length, num1 [, num2[, num3[, num4[, ...upto NUM_DIGITS numbers]]...] 
+Takes upto NUM_DIGITS comma-separated integers (0-255) and displays raw segments. 
+ 
+length can be 1 to NUM_DIGITS (4 or 6), 
+position can be 0 (left-most) to NUM_DIGITS (right-most). 
+num1, num2, ... are numbers representing a 7-segment digit. Each number represents all segments of one digit. 
+Segment a=1, b=2, c=4, d=8, e=16, f=32, g=64 and h (decimal point)=128.
+To turn on all segments, the number would be 1+2+4+8+16+32+64+128 = 255. 
+See TM163x for details.

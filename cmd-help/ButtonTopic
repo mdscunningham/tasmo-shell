@@ -1,0 +1,8 @@
+
+ButtonTopic
+
+<value> = set MQTT button topic
+0 = disable use of MQTT button topic
+1 = set MQTT button topic to device %topic%
+2 = reset MQTT button topic to firmware default (MQTT_BUTTON_TOPIC) (default = 0)
+If using MQTT to issue this command, if it is published to the device GroupTopic, the command will not be executed.

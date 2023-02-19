@@ -1,0 +1,9 @@
+
+Sensor68
+
+WindMeter sensor - Analog (pulse count) anemometer
+1, <value> = set radius length in millimeters (measured from center to the edge of one of the cups) 0..65535 (default = 61mm)
+2, <value> = set number of pulses for a complete turn 1..255 (default = 1)
+3, <value> = set pulse counter debounce time in milliseconds 1..32000 (default = 10)
+4, <value> = set speed compensation factor, a multiplication coefficient to adjust resulting speed -32.768..32.767 three decimal places (default = 1.180)
+5, <value> = set minimum percentage change between current and last reported speed trigger a new tele message 0..100, 255 = off (default = 255)

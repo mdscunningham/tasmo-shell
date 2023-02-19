@@ -1,0 +1,7 @@
+
+SetOption40
+
+Stop detecting input change on the button GPIO. Solves #5449
+Active only when SetOption1 1 and SetOption13 0. This disables all long press functionality.
+0..250 = button hold time in 0.1 seconds after which button functionality is disabled.(default =1) 
+Example: Backlog SetOption1 1; SetOption13 0; SetOption40 10 = discard any button press over 1 second

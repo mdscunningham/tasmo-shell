@@ -1,0 +1,12 @@
+
+DisplayText
+(TM1637, TM1638 and MAX7219)
+
+ TM1638 and MAX7219)","text[, position[, length]] 
+Clears and then displays basic text on the 7-segment display. 
+ 
+length can be 1 to NUM_DIGITS , 
+position can be 0 (left-most) to NUM_DIGITS-1 (right-most) 
+ 
+A caret(^) symbol in the text input is displayed as the degrees(°) symbol. This is useful for displaying Temperature (or angle)! 
+See TM163x for details.

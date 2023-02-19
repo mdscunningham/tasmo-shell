@@ -1,0 +1,6 @@
+
+SetOption16
+
+Set addressable LED Clock scheme parameter
+0 = clock-wise mode (default)
+1 = counter-clock-wise mode

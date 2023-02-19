@@ -1,0 +1,7 @@
+
+SetOption0
+
+Save power state and use after restart (=SaveState)
+0 = disable (see note below)
+1 = enable (default)
+Note: Power state means on/off state of eg. relays or lights. Other parameters like color, color temperature, brightness, dimmer, etc. are still saved when changed. To disable saving other parameters see SaveData.

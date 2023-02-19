@@ -1,0 +1,13 @@
+
+DevGroupShare
+
+<in>,<out> = set incoming and outgoing shared items (default = 0xffffffff,0xffffffff)
+<in> and <out> are bit masks where each mask is the sum of the values for the categories (listed below) to be shared. For example, to receive only power (1), light brightness (2) and light color (16) and send only power (1), enter the command DevGroupShare 19,1.
+ 
+1 = Power
+2 = Light brightness
+4 = Light fade/speed
+8 = Light scheme
+16 = Light color
+32 = Dimmer settings (presets)
+64 = Event

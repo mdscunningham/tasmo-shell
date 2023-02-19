@@ -1,0 +1,4 @@
+
+IfxHost
+
+<value> = set Influxdb host name or IP address

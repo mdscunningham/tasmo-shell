@@ -1,0 +1,5 @@
+
+UfsRename2
+
+Rename only Flash FS file if available
+Example: UfsRename2 old,new

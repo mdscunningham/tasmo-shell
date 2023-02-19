@@ -1,0 +1,8 @@
+
+PWMCT
+SetOption92
+
+Alternative to Module 38: for Cold/Warm white bulbs, enable the second PWM as CT (Color Temp) instead of Warm White, as required for Philips-Xiaomi bulbs.
+0 = normal Cold/Warm PWM (default) 
+1 = Brightness/CT PWM
+See PWM CT in Lights

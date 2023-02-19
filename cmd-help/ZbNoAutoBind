@@ -1,0 +1,6 @@
+
+ZbNoAutoBind
+SetOption110
+
+0 = (default)
+1 = disable Zigbee auto-binding and auto-attribute reporting when pairing a new device. Use only if you want to manually configure devices

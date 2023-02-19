@@ -1,0 +1,21 @@
+
+SwitchMode<x>
+
+Switch mode 
+0 = toggle (default) 
+1 = follow (0 = off, 1 = on) 
+2 = inverted follow (0 = on, 1 = off) 
+3 = pushbutton (default 1, 0 = toggle) 
+4 = inverted pushbutton (default 0, 1 = toggle) 
+5 = pushbutton with hold (default 1, 0 = toggle, Hold = hold) 
+6 = inverted pushbutton with hold (default 0, 1 = toggle, hold = hold) 
+7 = pushbutton toggle (0 = toggle, 1 = toggle)
+8 = multi change toggle (0 = toggle, 1 = toggle, 2x change = hold)
+9 = multi change follow (0 = off, 1 = on, 2x change = hold)
+10 = inverted multi change follow (0 = on, 1 = off, 2x change = hold)
+11 = pushbutton with dimmer mode 
+12 = inverted pushbutton with dimmer mode 
+13 = pushon mode (1 = on, switch off using PulseTime)
+14 = inverted pushon mode (0 = on, switch off using PulseTime)
+15 = send only an MQTT message on switch change (tele/tasmota/SENSOR with payload {""Time"":""2021-01-01T00:00:00"",""Switch1"":""OFF""})
+16 = inverted send only an MQTT message on switch change

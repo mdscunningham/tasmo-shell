@@ -1,0 +1,12 @@
+
+EnergyReset<x>
+
+x = 1..5
+1 <value>{,<time>} = ((p)re)set values
+2 <value>{,<time>} = ((p)re)set values for Yesterday
+3 <value>{,<time>} = ((p)re)set values for Total
+<value> = 0..42949672 in watt-hours (Wh)
+<time> = 0..4294967295 set StartTotalTime time as epoch value
+4 <standard>{,<off-peak>} = ((p)re)set tariff period values for Totals
+5 <standard>{,<off-peak>} = ((p)re)set tariff period values for Exported
+Warning: With version 10, this command has been replaced, see above.

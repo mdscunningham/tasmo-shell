@@ -1,0 +1,6 @@
+
+SetOption59
+
+Send tele/%topic%/STATE in addition to stat/%topic%/RESULT for commands: State, Power and any command causing a light to be turned on.
+0 = disable (default)
+1 = enable

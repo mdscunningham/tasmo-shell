@@ -1,0 +1,6 @@
+
+CORS
+
+"" = disable CORS (Cross Origin Resource Sharing) (default)
+* = enable CORS for all locations
+value = Enable CORS for location. This needs to be complete url ex: http://tasui.shantur.com

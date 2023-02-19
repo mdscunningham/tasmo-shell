@@ -1,0 +1,5 @@
+
+MaxPower
+
+0 = disable use maximum power monitoring
+<value> = set maximum allowed power in watts

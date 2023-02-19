@@ -1,0 +1,7 @@
+
+SetOption73
+
+Detach buttons from relays and send multi-press and hold MQTT messages instead
+0 = disable (default)
+1 = enable 
+Example message: {""Button1"":{""Action"":""SINGLE""}}

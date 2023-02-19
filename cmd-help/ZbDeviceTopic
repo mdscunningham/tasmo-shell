@@ -1,0 +1,8 @@
+
+ZbDeviceTopic
+SetOption89
+
+Configure MQTT topic for Zigbee devices (also see SensorRetain)
+0 = single tele/%topic%/SENSOR topic (default) 
+1 = unique device topic based on Zigbee device ShortAddr
+Example: tele/Zigbee/5ADF/SENSOR = {""ZbReceived"":{""0x5ADF"":{""Dimmer"":254,""Endpoint"":1,""LinkQuality"":70}}}

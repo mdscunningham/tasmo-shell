@@ -1,0 +1,8 @@
+
+StateText<x>
+
+<value> = set state text (<x> = 1..4)
+1 = OFF state text
+2 = ON state text
+3 = TOGGLE state text
+4 = HOLD state text

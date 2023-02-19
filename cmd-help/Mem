@@ -1,0 +1,7 @@
+
+Mem<x>
+
+Manage up to 16 variables stored on flash (x = 1..16)
+Mem returns all current values. Mem<x> returns the variable's current value.
+<value> = store a string value in a variable
+"" = clear stored value in Mem<x>

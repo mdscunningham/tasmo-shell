@@ -1,0 +1,6 @@
+
+SetOption60
+
+Set sleep mode
+0 = dynamic sleep (default)
+1 = normal sleep

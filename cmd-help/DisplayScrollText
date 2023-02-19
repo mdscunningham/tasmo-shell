@@ -1,0 +1,8 @@
+
+DisplayScrollText
+(TM1637, TM1638 and MAX7219) 
+
+ TM1638 and MAX7219) ","text [, num_iterations]
+Displays scrolling text, upto 50 characters. 
+If num_iterations is not specified, it scrolls indefinitely, until another Display- command is issued. Optionally, specifying num_iterations causes the scrolling to stop after the specified number of iterations.
+See TM163x for details.

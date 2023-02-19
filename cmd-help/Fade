@@ -1,0 +1,6 @@
+
+Fade
+
+0 = do not use fade (default) 
+1 = use fade
+See also SetOption91

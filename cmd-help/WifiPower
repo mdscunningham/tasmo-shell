@@ -1,0 +1,4 @@
+
+WifiPower
+
+set Wi-Fi transmit power level in decibel-milliwatts (dBm) (default = 17)

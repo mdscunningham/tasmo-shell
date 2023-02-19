@@ -1,0 +1,8 @@
+
+Counter<x>
+
+0 = reset Counter<x>
+1..2,147,483,645 = preset Counter<x>
+-1..-2,147,483,645 = decrease Counter<x>
++1..+2,147,483,645 = increase Counter<x>
+In order to define and use a Counter, *you must configure one of the free device GPIO as Counter<x>. Counter module configuration is using internal pull-up resistor while Countern does not. *

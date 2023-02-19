@@ -1,0 +1,6 @@
+
+SetOption74
+
+Enable internal pullup for single DS18x20 sensor 
+0 = disable (default)
+1 = internal pullup enabled

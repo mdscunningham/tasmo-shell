@@ -1,0 +1,6 @@
+
+SetOption19
+
+Tasmota discovery protocol used in Home Assistant Tasmota integration
+0 = enable Tasmota discovery (default)
+1 = use deprecated MQTT discovery (only with #define USE_HOME_ASSISTANT, does not exist in release binaries)

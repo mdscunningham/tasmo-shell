@@ -1,0 +1,6 @@
+
+BuzzerPwm
+SetOption111
+
+0 = (default)
+1 = use frequency output for buzzer pin instead of on/off signal, for piezo buzzers

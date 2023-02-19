@@ -1,0 +1,8 @@
+
+Knx_CB<x>
+
+Setup Group Address to Receive Data/Commands 
+1 = return configuration of CB<x>
+<option>, <area>, <line>, <member> to set configuration of CB<x>
+     <option> = see table below for OPTION list
+     <area>, <line>, <member> = KNX Address to Receive Data/Commands

@@ -1,0 +1,10 @@
+
+RfKey<x>
+
+Send learned or default RF data for RfKey<x> (x = 1 – 16)
+1 = send default RF data for RfKey<x> using RfSync, RfLow, RfHigh and RfHost parameters
+2 = learn RF data for RfKey<x>
+3 = unlearn RF data for RfKey<x>
+4 = save RF data using RfSync, RfLow, RfHigh and last RfCode parameters
+5 = show default or learned RF data
+6 = send learned RF data

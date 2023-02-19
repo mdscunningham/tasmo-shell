@@ -1,0 +1,4 @@
+
+State
+
+Display current device state and publish to %prefix%/%topic%/RESULT topic 

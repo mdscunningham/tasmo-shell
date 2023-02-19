@@ -1,0 +1,6 @@
+
+SetOption75
+
+Set grouptopic behaviour (#6779)
+0 = GroupTopic using FullTopic replacing %topic% (default)
+1 = GroupTopic is cmnd/%grouptopic%/

@@ -1,0 +1,8 @@
+
+Knx_GA<x>
+
+Setup Group Address to Send Data/Commands (<x> = KNX Group Address number)
+1 = return configuration of GA<x>
+<option>, <area>, <line>, <member> to set configuration of GA<x>
+     <option> = see table below for OPTION list
+     <area>, <line>, <member> = KNX Address to Send Data/Commands

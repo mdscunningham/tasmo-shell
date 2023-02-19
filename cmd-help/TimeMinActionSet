@@ -1,0 +1,5 @@
+
+TimeMinActionSet
+
+Sets the minimum duty cycle of the PI controller in minutes
+0..1440 = value in minutes (default 4 minutes)

@@ -1,0 +1,7 @@
+
+ZbModelId
+
+Manually force the ModelId field of a Zigbee device. This is used to simulate devices not physically present on the network, for debugging only.
+<device>,<modelid> = set new ModelId
+<device>, = (empty ModelId) clear ModelId
+<device> = display current ModelId (also displayed in ZbStatus2)

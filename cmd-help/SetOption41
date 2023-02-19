@@ -1,0 +1,6 @@
+
+SetOption41
+
+0 = Disable ARP
+<x> = Force sending gratuitous ARP (Wi-Fi keep alive) every <x> seconds (default = 60)
+If <x> is below 100 it is the number of seconds, if <x> is above 100, it is the number of minutes after subtracting 100. Ex: 105 is every 5 minutes, while 90 is every 90 seconds.

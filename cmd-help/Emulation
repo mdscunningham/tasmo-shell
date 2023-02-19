@@ -1,0 +1,6 @@
+
+Emulation
+
+0 = disable emulation (default)
+1 = enable Belkin WeMo emulation for Alexa
+2 = enable Hue Bridge emulation for Alexa

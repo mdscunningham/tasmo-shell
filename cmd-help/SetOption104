@@ -1,0 +1,6 @@
+
+SetOption104
+
+Disable MQTT retained messages (some brokers don't support them)
+0 = retained messages enabled (default) 
+1 = retained messages disabled

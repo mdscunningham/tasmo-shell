@@ -1,0 +1,6 @@
+
+Webserver
+
+0 = stop web server
+1 = start web server in user mode
+2 = start web server in admin mode

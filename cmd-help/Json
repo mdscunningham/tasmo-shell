@@ -1,0 +1,6 @@
+
+Json
+
+Input any command as valid JSON
+{<Tasmota commands>}
+example: cmnd/tasmota/json {""HSBColor"":""360,100,100"",""Scheme"": 1,""Dimmer"": 10,""CT"": 220}

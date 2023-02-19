@@ -1,0 +1,5 @@
+
+NRFNlight
+
+Set the MAC of an NLIGHT
+<value> (12 characters) = MAC interpreted as an uppercase string AABBCCDDEEFF

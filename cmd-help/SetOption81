@@ -1,0 +1,6 @@
+
+SetOption81
+
+Set PCF8574 component behavior for all ports
+0 = set as regular state (default)
+1 = set as inverted state

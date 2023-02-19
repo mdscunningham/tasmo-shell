@@ -1,0 +1,6 @@
+
+SetOption99
+
+Enable zero-cross capable AC dimmer
+0 = no zero-cross AC dimmer connected (default) 
+1 = zero-cross AC dimmer attached. Focus on raising edge and sync frequency

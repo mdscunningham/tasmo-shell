@@ -1,0 +1,14 @@
+
+WebQuery
+
+Send HTTP GET, POST, PUT, and PATCH Requests
+<url> <method> [<header1Name:header1Value|header2Name:header2Value...>]<body>
+<url> = HTTP URL to query
+<method> = HTTP Request method. Must be GET, POST, PUT, or PATCH
+[<header1Name:header1Value|header2Name:header2Value...>] (optional) = HTTP Request Headers.
+<body> (optional) = HTTP Request Body. Ignored for GET requests
+ 
+Examples
+WebQuery http://www.mysite.com/api/status GET: Simple HTTP GET Request
+WebQuery http://www.mysite.com/api/update POST [Authorization:Bearer xyz|Content-Type:application/json]{""message"":""body""}: Sends POST data with an authorization header and Content-Type
+WebQuery http://www.mysite.com/api/set PUT {""message"":""body""}: Sends PUT request with a body, but no headers

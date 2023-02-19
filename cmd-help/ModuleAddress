@@ -1,0 +1,9 @@
+
+ModuleAddress
+
+Set the address of a PZEM module
+1..3 = the last octet of the PZEM-004T serial address
+<address> = the last octet of the address on MODBUS PZEM energy monitoring modules
+Prior to setting the module address, the PZEM must be connected to both RX and TX, and AC voltage.
+Connect one PZEM at a time and issue this command. Repeat for each PZEM to be connected for multi-phase monitoring.
+The command without an argument cannot be used to read the address of the connected PZEM.

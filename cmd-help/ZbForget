@@ -1,0 +1,5 @@
+
+ZbForget
+
+Used for devices that are unused but still visible in ZbStatus
+<device> = Remove a device from the Tasmota flash memory. It does not un-pair the device nor deleting the device information in the CC2530/ZBBridge.

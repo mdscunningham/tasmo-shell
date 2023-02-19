@@ -1,0 +1,8 @@
+
+Sensor27
+
+APDS-9960 sensor commands
+0 = enable light level and proximity sensor / disable gestures (default) 
+1 = enable gesture mode/ disable light level and proximity sensor
+2 = enable gestures with half gain / disable light and proximity sensor
+3..255 = Set ATIME register for different integration times

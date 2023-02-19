@@ -1,0 +1,4 @@
+
+WiFiScan
+
+1 = start a network scan. Results will be sent as a JSON payload. Read more...

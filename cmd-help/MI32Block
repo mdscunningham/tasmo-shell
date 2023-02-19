@@ -1,0 +1,6 @@
+
+MI32Block
+
+Block or unblock a sensor device.
+MI32Block = list blocked devices by mac.
+MI32Block <mac or blealias> = Block one mac/alias.

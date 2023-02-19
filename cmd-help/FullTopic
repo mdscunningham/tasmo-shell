@@ -1,0 +1,6 @@
+
+FullTopic
+
+1 = reset MQTT fulltopic to firmware default (MQTT_FULLTOPIC) and restart
+<value> = set MQTT fulltopic and restart. Use of optional %prefix%, %topic%, %hostname%, and %id% substitution tokens is allowed.
+If using MQTT to issue this command, if it is published to the device GroupTopic, you must ensure uniqueness of the resulting fulltopic on each destination device by using one or more of these substitution tokens.

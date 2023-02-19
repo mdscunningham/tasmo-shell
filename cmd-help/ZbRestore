@@ -1,0 +1,5 @@
+
+ZbRestore
+
+Restores a device configuration previously dumped with ZbStatus2. This command does not pair a device, but lets you get back device configuration like ModelId or IEEEAddress.
+<json> = json contains the fields dumped with ZbStatus2. <json> can contain multiple devices (if they fit).

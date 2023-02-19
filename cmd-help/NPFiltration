@@ -1,0 +1,11 @@
+
+NPFiltration
+
+{<state> {speed}}
+get/set manual filtration (state = 0 or 1, speed = 1..3). Get if state is omitted, otherwise set accordingly <state>:
+0 - manual turn filtration pump off
+1 - manual turn filtration pump on
+optional speed control is possible for non-standard filtration types:
+1 - slow
+2 - medium
+3 - fast

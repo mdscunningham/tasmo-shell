@@ -1,0 +1,6 @@
+
+DzUpdateTimer
+
+Show current update timer value in seconds
+0 = disable sending interim Domoticz status (default)
+1..3600 = send status to Domoticz in defined intervals

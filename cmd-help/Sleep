@@ -1,0 +1,5 @@
+
+Sleep
+
+0 = turn sleep off
+1..250 = set sleep duration in milliseconds to enable energy saving (default = 50)

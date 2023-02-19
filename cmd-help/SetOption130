@@ -1,0 +1,5 @@
+
+SetOption130
+
+Add heap size (and ESP32 fragmentation) to logging timestamp for debugging
+1 = enable

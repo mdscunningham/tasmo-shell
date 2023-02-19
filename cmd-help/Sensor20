@@ -1,0 +1,5 @@
+
+Sensor20
+
+Nova Fitness SDS011 dust sensor.
+1..255 = number of seconds before TelePeriod to poll the sensor

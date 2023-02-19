@@ -1,0 +1,5 @@
+
+Prefix3
+
+1 = Reset MQTT telemetry prefix to firmware default (PUB_PREFIX2) and restart
+<value> = set MQTT telemetry prefix and restart

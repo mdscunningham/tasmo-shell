@@ -1,0 +1,7 @@
+
+SetOption31
+
+Set status LED blinking during Wi-Fi and MQTT connection problems.
+LedPower must be set to 0 for this feature to work
+0 = Enabled (default)
+1 = Disabled

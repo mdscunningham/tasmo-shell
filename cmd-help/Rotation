@@ -1,0 +1,4 @@
+
+Rotation
+
+<value> = set amount of pixels to rotate (up to Pixels value) (applies only to addressable LEDs)

@@ -1,0 +1,6 @@
+
+SetOption71
+
+Set DDS238 Modbus register for active energy
+0 = set primary register (default)
+1 = set alternate register

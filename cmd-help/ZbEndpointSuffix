@@ -1,0 +1,8 @@
+
+ZbEndpointSuffix
+SetOption101
+
+Add Zigbee source endpoint as suffix to attributes
+0 = disable (default) 
+1 = enable
+e.g. Power3 instead of Power if sent from endpoint 3.

@@ -1,0 +1,6 @@
+
+SetOption26
+
+Use indexes even when only one relay is present
+0 = messages use POWER (default)
+1 = messages use POWER1

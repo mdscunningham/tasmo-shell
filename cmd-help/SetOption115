@@ -1,0 +1,6 @@
+
+SetOption115
+
+ESP32 MI32 BLE
+0 = disable (default)
+1 = enable

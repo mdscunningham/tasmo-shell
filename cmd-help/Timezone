@@ -1,0 +1,7 @@
+
+Timezone
+
+-13..+13 = set time zone offset from UTC in hours
+-13:00..+13:00 = set time zone offset from UTC in hours and minutes
+99 = use time zone configured with TimeDst and TimeStd
+Use the Tasmota time zone table to find the commands for your time zone.

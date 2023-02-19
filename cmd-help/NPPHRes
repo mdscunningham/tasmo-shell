@@ -1,0 +1,5 @@
+
+NPPHRes
+
+{<digits>}
+get/set number of digits in results for PH value (digits = 0..3).

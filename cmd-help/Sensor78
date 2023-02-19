@@ -1,0 +1,6 @@
+
+Sensor78
+
+EZO sensors - commands
+Ascii commands are sent directly to the sensor as-is. See your specific EZO device datasheet for the list of commands available.
+By default, the specific command is sent to all EZO devices that are found. If using multiple EZO sensors, and the command should be issued to a single device, the index can be specified as part of the command: Sensor78-# where # represent the index of the device (ex: Sensor78-1 i). For more details please see Tasmota's support for EZO devices.

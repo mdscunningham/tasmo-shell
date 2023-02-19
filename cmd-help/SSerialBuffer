@@ -1,0 +1,4 @@
+
+SSerialBuffer
+
+256..SERIAL_BRIDGE_BUFFER_SIZE = set the serial bridge buffer size. This option will not be persisted, use a rule with a trigger like Power1#Boot when you want this to survive a reboot

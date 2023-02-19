@@ -1,0 +1,4 @@
+
+ShutterTiltChange<x>
+
+-100..100 Moves the shuttertilt from the current position relatively in %. If the resulting tilt is below min or above max it will be capped. Command can also be executed during movement and will change the tilt at target position.

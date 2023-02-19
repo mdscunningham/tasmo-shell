@@ -1,0 +1,5 @@
+
+SSerialConfig
+
+value = set serial protocol using data/parity/stop conventional notation (example: 8N1 or 702)
+0..23 = set serial protocol (3 equals 8N1)

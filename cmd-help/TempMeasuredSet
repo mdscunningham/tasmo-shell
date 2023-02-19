@@ -1,0 +1,5 @@
+
+TempMeasuredSet
+
+Sets the temperature measured by the sensor (for MQTT sensor mode)
+<TempFrostProtectSet..100> = Temperature (default 18.0° Celsius) 

@@ -1,0 +1,7 @@
+
+EnergyToday<x>
+
+Get or set Energy Today values, parameters:
+<x> = meter number (default is 1)
+<value> = set new value in Wh, 0 for reset
+<time> = 0..4294967295 set StartTotalTime time as epoch value (optional 2nd parameter)

@@ -1,0 +1,6 @@
+
+SetOption56
+
+Wi-Fi network scan to select strongest signal on restart (network has to be visible)
+0 = disable (default)
+1 = enable

@@ -1,0 +1,6 @@
+
+SetOption17
+
+Show Color string as
+0 = hex string (default)
+1 = comma-separated decimal string

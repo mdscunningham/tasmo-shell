@@ -1,0 +1,10 @@
+
+Wifi
+
+0 = disable Wi-Fi
+1 = enable Wi-Fi (default) 
+ESP8266 only:
+2 = Wi-Fi mode 802.11b
+3 = Wi-Fi mode 802.11b/g
+4 = Wi-Fi mode 802.11b/g/n
+When wifi is Off it is always returned On after a restart except for a wake-up from deepsleep.

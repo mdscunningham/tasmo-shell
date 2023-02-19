@@ -1,0 +1,4 @@
+
+DevGroupTie<x>
+
+<relay> = Tie the relay to the device group <x>. Only applies when option 88 is enabled.

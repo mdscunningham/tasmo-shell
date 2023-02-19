@@ -1,0 +1,9 @@
+
+Sunrise
+
+Sunrise/Sunset type
+0 = Normal (default)
+1 = Civil
+2 = Nautical
+3 = Astronomical
+introduced in version 12.1.1.5

@@ -1,0 +1,5 @@
+
+SwitchText<x>
+
+Show current JSON label of Switch<x> (1..8). Only SwitchText shows value for all 8 switches
+<text> - replace default Switch<x> label in JSON messages with a custom text

@@ -1,0 +1,6 @@
+
+SetOption55
+
+mDNS service
+0 = disable (default) 
+1 = enable

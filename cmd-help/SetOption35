@@ -1,0 +1,4 @@
+
+SetOption35
+
+0..255 = skip number of received messages in Serial Bridge (default = 0)

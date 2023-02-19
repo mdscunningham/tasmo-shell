@@ -1,0 +1,7 @@
+
+ZbEndpointTopic
+SetOption120
+
+Add the Zigbee endpoint as suffix in topic when using SetOption89 1
+0 = disable (default)
+1 = enable

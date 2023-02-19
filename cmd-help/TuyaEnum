@@ -1,0 +1,5 @@
+
+TuyaEnum<x>
+
+Send value to an Enum (fnId 61, 62, 63 and 64) where<x> = number of Enum
+<value> = must be from a range set in TuyaEnumList

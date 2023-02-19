@@ -1,0 +1,6 @@
+
+BLEAddrFilter
+
+Set BLE Address type filter.
+BLEAddrFilter = show filter level
+BLEAddrFilter n = set BLE address type filter 0..3 - default 3. Ignores BLE address types > filter value. Set 0 to ONLY see public addresses.

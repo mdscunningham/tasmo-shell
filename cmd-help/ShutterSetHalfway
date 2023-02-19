@@ -1,0 +1,5 @@
+
+ShutterSetHalfway<x>
+
+0..100 (default = 50)
+Define shutter half open position (in percent)

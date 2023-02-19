@@ -1,0 +1,17 @@
+
+RfSend
+
+<value> = code decimal or JSON. Data value is required and can be decimal or hexadecimal (using the 0x prefix), other values are optional.
+ 
+JSON
+{""Data"":""<value>"",""Bits"":<value>,""Protocol"":<value>,""Pulse"":<value>}
+""Data"":""<value>"" = hexadecimal code
+""Bits"":<value> = required number of data bits (default = 24)
+""Protocol"":<value> = protocol number (default = 1)
+""Repeat"":<value> = repeat value (default = 10)
+""Pulse"":<value> = pulse value (350 = default for protocol 1)
+ e.g., RfSend {""Data"":""0x7028DC"",""Bits"":24,""Protocol"":1,""Pulse"":238}
+ 
+Decimal
+data, bits, protocol, repeat, pulse 
+ e.g., RfSend 7350492, 24, 1, 10, 238 or RfSend 0x7028DC, 24, 1, 10, 238

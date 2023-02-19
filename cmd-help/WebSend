@@ -1,0 +1,12 @@
+
+WebSend
+
+Send a command to Tasmota host over http. If a command starts with a / it will be used as a link.
+[<host>:<port>,<user>:<password>] <command>
+<host> = hostname or IP address.
+<port> = port for the device if not the default 80
+<user> = enter username of the device you're sending the command to
+<password> = enter password of the device you're sending the command to
+<command> = command and payload
+example 1: [<ip>] POWER1 ON sends http://<ip>/cm?cmnd=POWER1 ON
+example 2: WebSend [myserver.com] /fancy/data.php?log=1234 sends http://myserver.com/fancy/data.php?log=1234

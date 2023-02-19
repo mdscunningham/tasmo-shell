@@ -1,0 +1,7 @@
+
+SSId<x>
+
+<x> = 1..2
+<value> = set AP<x> Wi-Fi SSID and restart
+1 = reset AP<x> Wi-Fi SSID to firmware default (STA_SSID1 or STA_SSID2) and restart
+SSID are limited to 32 characters. Do not use special characters or white spaces in the SSID

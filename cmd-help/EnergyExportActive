@@ -1,0 +1,5 @@
+
+EnergyExportActive<x>
+
+ADE7880 only! Set/reset energy active values
+<x> = meter number (default is 1)

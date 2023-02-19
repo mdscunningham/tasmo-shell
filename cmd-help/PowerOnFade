@@ -1,0 +1,7 @@
+
+PowerOnFade
+SetOption91
+
+Enable Fade at boot and power on. By default fading is not enabled at boot because of stuttering caused by wi-fi connection
+0 = don't Fade at startup (default) 
+1 = Fade at startup

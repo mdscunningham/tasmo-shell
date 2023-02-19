@@ -1,0 +1,5 @@
+
+NPIONRes
+
+{<digits>}
+get/set number of digits in results for ION value (digits = 0..3).

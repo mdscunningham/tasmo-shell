@@ -1,0 +1,7 @@
+
+NPpHMin
+
+{<ph>}
+(only available if pH module is installed)
+get/set pH lower limit (ph = 0..14)
+get current limit if is omitted, otherwise set.

@@ -1,0 +1,6 @@
+
+Module
+
+Displays active module by name and index
+<value> = switch to module <value> and restart
+0 = switch to defined template and restart

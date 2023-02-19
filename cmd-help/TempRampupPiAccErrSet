@@ -1,0 +1,5 @@
+
+TempRampupPiAccErrSet
+
+Sets the initial accumulated error when switching from ramp-up to the PI controller phase if the target temperature has not been reached (applicable just in Hybrid controller mode)
+0..25 = value in degrees Celsius/Fahrenheit (default 2° Celsius)

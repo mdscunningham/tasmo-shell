@@ -1,0 +1,5 @@
+
+Bh1750MTime<x>
+
+BH1750 Measurement Time value. x = BH1750 sensor number (1..2) 
+30..255 = set Measurement Time value. Not persistent after reboot. (default = 69)

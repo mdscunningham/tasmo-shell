@@ -1,0 +1,5 @@
+
+MqttFingerprint
+
+TLS needs to be enabled in firmware for this command 
+<value> = set current fingerprint as 20 space separated bytes (59 chars max)

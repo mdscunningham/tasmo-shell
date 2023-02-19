@@ -1,0 +1,6 @@
+
+ZbBindState<n>
+
+Asks the device for its internal binding states
+<device> the device to query
+<n> the start index for the request, 1 is the default. This is used to scan through all bindings.

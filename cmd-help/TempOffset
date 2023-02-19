@@ -1,0 +1,5 @@
+
+TempOffset
+
+-12.6..12.6 = Set calibration offset value for reported temperature telemetry
+This setting affects all temperature sensors on the device.

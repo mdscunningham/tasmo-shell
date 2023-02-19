@@ -1,0 +1,4 @@
+
+KnxTx_Val<x>
+
+<value> = send float value using slot <x> set in KNX Menu at KNX_TX

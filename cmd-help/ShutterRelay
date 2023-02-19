@@ -1,0 +1,7 @@
+
+ShutterRelay<x>
+
+<value>
+0 = disable this and all higher numbered shutters
+Relay<value> component used to open the shutter. This relay's mate, the next higher numbered relay, closes the shutter. Depending on the shutter mode, the relays may need to be interlocked using the Interlock command.
+The ShutterRelay command must be executed first before any other shutter commands for Shutter<x> can be executed.

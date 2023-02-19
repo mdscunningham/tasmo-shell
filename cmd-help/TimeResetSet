@@ -1,0 +1,5 @@
+
+TimeResetSet
+
+Sets the value of the reset time of the PI controller
+0..86400 = value in seconds (default 12000 seconds)

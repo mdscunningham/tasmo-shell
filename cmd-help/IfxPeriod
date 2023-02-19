@@ -1,0 +1,7 @@
+
+IfxPeriod
+
+<value>
+= 0 = use Teleperiod value as publication interval (default)
+10..3600 = set a different publication interval
+Even when IfxPeriod 0 is used, publication is not necessarily performed at the same time as the telemetry message.

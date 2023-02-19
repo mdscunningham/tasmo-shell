@@ -1,0 +1,4 @@
+
+ShutterCalibration<x>
+
+Granular shutter position calibration. The measured opening position of the shutter at the 30, 50, 70, 90, and 100 percent opened locations. For example: ShutterCalibration<x> 23 38 56 74 82

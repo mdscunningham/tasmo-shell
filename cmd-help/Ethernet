@@ -1,0 +1,6 @@
+
+Ethernet
+
+Only for ESP32 boards with additional LAN chip
+0 = disable Ethernet
+1 = enable Ethernet (default)

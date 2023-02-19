@@ -1,0 +1,10 @@
+
+SerialLog
+
+Disable hardware serial bridge and
+0 = disable serial logging
+1 = show only error messages
+2 = show error and info messages (default)
+3 = show error, info and debug messages
+4 = show error, info and more debug messages
+SerialLog will be disabled automatically 10 minutes after the device reboots.

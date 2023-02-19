@@ -1,0 +1,5 @@
+
+CurrentLow
+
+0 = disable current low threshold (default)
+<value> = set current low threshold value in milliamps

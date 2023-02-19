@@ -1,0 +1,5 @@
+
+LedTable
+
+0 = do not use LED gamma correction (default «6.5.0.9)
+1 = use gamma correction (default »6.5.0.9)

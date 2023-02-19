@@ -1,0 +1,13 @@
+
+ZbUnbind
+
+Unbinds one Zigbee device from another or from a group. 
+{""Device"":""<device>"", ""Endpoint"":<endpoint>, ""Cluster"":<cluster>, ""ToDevice"":""<to_device>"", ""ToEndpoint"":<to_endpoint>, ""ToGroup"":<to_group> }
+<device> = the device sending the messages (mandatory)
+<endpoint> = the source endpoint (mandatory)
+<cluster> = the source cluster id (mandatory)
+<to_device> = the target device (optional)
+<to_endpoint> = the target endpoint (optional if it can be inferred from ZbStatus3)
+<to_group> = the target group id (optional)
+You must specify either ""ToDevice"" or ""ToGroup"" but not both
+Zigbee2Tasmota must know the IEEE address of the target device, use ZbStatus2 to verify and ZbProbe to query the address.

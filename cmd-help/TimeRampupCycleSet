@@ -1,0 +1,5 @@
+
+TimeRampupCycleSet
+
+Sets the value of the cycle for the ramp-up controller
+0..1440 = value in minutes (default 30 minutes)

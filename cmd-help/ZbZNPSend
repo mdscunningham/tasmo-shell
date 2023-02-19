@@ -1,0 +1,4 @@
+
+ZbZNPSend <hex>
+
+(CC2530 only) Send a raw ZCL message to a Zigbee device. This is a low-level command, and requires to manually build the ZCL parameters. Most common usage will be provided as high-level functions.

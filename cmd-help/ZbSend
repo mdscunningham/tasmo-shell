@@ -1,0 +1,10 @@
+
+ZbSend
+
+Command structure: {""Device"":""<shortaddr>"", ""Endpoint"":""<endpoint>"", ""Manuf"":<manuf>, ""Send"":{""<sendcmd>"":<sendparam>}}
+<shortaddr> = short address of the Zigbee device on the network
+<endpoint> = target endpoint on the device (understanding endpoints)
+<manuf> = (optional) forces a specific ManufacturerId in the ZCL frame (required by some Xiaomi devices)
+""<sendcmd>"":<sendparam> = command and parameters to send (Zigbee Device Commands)
+_Use ZbZNPSend to send a raw form low-level message on CC253x gateways _
+Example: ZbSend { ""Device"":""0x1234"", ""Endpoint"":""0x03"", ""Send"":{""Power"":""on""} }

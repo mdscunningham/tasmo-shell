@@ -1,0 +1,7 @@
+
+EthType
+
+Ethernet type.
+0 = ETH_PHY_LAN8720 (default)
+1 = ETH_PHY_TLK110 
+2 = ETH_PHY_IP101

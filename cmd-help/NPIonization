@@ -1,0 +1,7 @@
+
+NPIonization
+
+{<level>}
+(only available if ionization control is present)
+get/set ionization target production level (level = 0..x, the upper limit x of the range may vary depending on the MBF_PAR_ION_NOM register)
+get current level if is omitted, otherwise set

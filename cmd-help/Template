@@ -1,0 +1,9 @@
+
+Template
+
+Show current Template
+0 = create template from active module
+x = create template from a supported module
+255 = merge current module and template settings into new template
+{ ... } = store template in a JSON payload
+Does not activate the template. To activate use Module 0.

@@ -1,0 +1,5 @@
+
+RfTimeOut
+
+change timeout in RfReceive 
+100..60000 = disable duplicate RfReceive (default = 1000)

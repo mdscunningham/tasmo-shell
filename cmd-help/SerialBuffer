@@ -1,0 +1,4 @@
+
+SerialBuffer
+
+256..520 = set the serial buffer size. This option will not be persisted, use a rule with a trigger like Power1#Boot when you want this to survive a reboot. Sometimes, serial buffer overruns can be mitigated by setting this to a large value such as 520.

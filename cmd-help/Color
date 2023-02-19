@@ -1,0 +1,34 @@
+
+Color<x>
+
+x = 1..6
+ 1 = Set color
+ 2 = Set color adjusted to current Dimmer value
+ 3 = Set clock seconds hand color (Scheme 5 only)
+ 4 = Set clock minutes hand color (Scheme 5 only)
+ 5 = Set clock hour hand color (Scheme 5 only)
+ 6 = Set clock hour marker color
+<value>
+r,g,b = set color by decimal value (0..255)
+#CWWW = set hex color value for CT lights 
+#RRGGBB = set hex color value for RGB lights
+#RRGGBBWW = set hex color value for RGBW lights
+#RRGGBBCWWW = set hex color value for RGBCCT lights (5 PWM channels)
+Note:
+Just append an = instead of the remaining color codes, this way they wont get changed. For example a command like Color #00ff= would update the RGB part to disable red and enable green, but would omit to update blue or any white channel.
+ 
+Set color to
+1 = red
+2 = green
+3 = blue
+4 = orange
+5 = light green
+6 = light blue
+7 = amber
+8 = cyan
+9 = purple
+10 = yellow
+11 = pink
+12 = white (using RGB channels)
++ = next color
+- = previous color

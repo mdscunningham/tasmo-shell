@@ -1,0 +1,6 @@
+
+Br
+
+Run the code from the console
+Example to download a file from a remote server into filesystem:
+br def urlfetch(url,file); if file==nil; import string; file=string.split(url,'/').pop(); end; var wc=webclient(); wc.begin(url); var st=wc.GET(); if st!=200 raise 'connection_error','status: '+str(st) end; st='Fetched '+str(wc.write_file(file)); print(url,st); wc.close(); return st; end; urlfetch('https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/zigbee/giex_water.zb')

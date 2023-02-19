@@ -1,0 +1,5 @@
+
+TempTargetSet
+
+Sets the target temperature for the controller (setpoint)
+<TempFrostProtectSet..100> = Temperature (default 18.0° Celsius) 

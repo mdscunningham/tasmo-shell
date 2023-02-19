@@ -1,0 +1,8 @@
+
+WiFiTest<x>
+
+Test whether the Wi-Fi SSId and Password are correct and Tasmota can connect to the network. <x> = 0..2
+  0 = test credentials, if successful save them in SSID slot 1, restart Tasmota
+  1 = test credentials, if successful save them in SSID slot 1 without restart
+  2 = test credentials, if successful save them in SSID slot 2 without restart
+ssid+password = credentials used for testing, + symbol is the separator since it is not allowed in an SSId name.* Read more...

@@ -1,0 +1,4 @@
+
+SetOption34
+
+0..255 = set Backlog inter-command delay in milliseconds (default = 200)

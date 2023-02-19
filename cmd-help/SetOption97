@@ -1,0 +1,6 @@
+
+SetOption97
+
+Set TuyaMCU serial baudrate
+0 = 9600 bps (default) 
+1 = 115200 bps

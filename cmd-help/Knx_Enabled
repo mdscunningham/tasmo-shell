@@ -1,0 +1,6 @@
+
+Knx_Enabled
+
+Status of KNX Communications
+0 = set to Disable
+1 = set to Enable

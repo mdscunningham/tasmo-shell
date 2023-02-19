@@ -1,0 +1,5 @@
+
+CounterDebounce
+
+0 = turn off counter debounce
+1..32000 = set counter debounce time in milliseconds. Counter is increased with every falling edge when CounterType=0 or time between successive falling edges is measured when CounterType=1. When CounterDebounceLow and CounterDebounceHigh are set to zero (default) only falling edges of the counter's GPIO are checked. Any CounterDebounceLow or CounterDebounceHigh unequal zero checks are carried out before CounterDebounce check is done. As an example you can set CounterDebounce 500 to allow a minimum distance between to successive valid falling edges equal to 500ms.

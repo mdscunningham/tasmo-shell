@@ -1,0 +1,6 @@
+
+SetOption20
+
+Update of Dimmer/Color/CT without turning power on
+0 = disable (default)
+1 = enable

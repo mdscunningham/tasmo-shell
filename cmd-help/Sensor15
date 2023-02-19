@@ -1,0 +1,13 @@
+
+Sensor15
+
+Automatic Baseline Correction for MH-Z19B CO2 sensor
+0 = disable
+1 = enable (default)
+2 = start manual calibration from 400 ppm of CO2
+9 = reset sensor to factory defaults
+1000 = sets measurement range to 1000ppm CO2
+2000 = sets measurement range to 2000ppm CO2
+3000 = sets measurement range to 3000ppm CO2
+5000 = sets measurement range to 5000ppm CO2
+10000 = sets measurement range to 10000ppm CO2

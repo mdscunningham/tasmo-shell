@@ -1,0 +1,6 @@
+
+SetOption10
+
+When the device MQTT topic changes 
+0 = remove retained message on old topic LWT (default)
+1 = send ""Offline"" to old topic LWT

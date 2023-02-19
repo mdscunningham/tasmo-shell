@@ -1,0 +1,5 @@
+
+NPCLRes
+
+{<digits>}
+get/set number of digits in results for CL value (digits = 0..3).

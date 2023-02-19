@@ -1,0 +1,5 @@
+
+NPBitL
+
+<addr> <bit> {<data>}
+read/write a 32-bit register single bit (addr = 0..0x060F, bit = 0..31, data = 0|1). Read if data is omitted, otherwise set single bit

@@ -1,0 +1,13 @@
+
+ZbConfig <json>
+
+change the configuration and restart if any change was applied. Warning: change in configuration causes a reset of the CC2530/ZBBridge and requires devices to be re-paired.
+""Channel"":<channel>: Zigbee radio channel (11-26)
+""PanID"":<panid>: identifier of the Zigbee Network
+""ExtPanID"":<extpanid>: unique identifier of the Zigbee Network (ExtPanID features are not supported in Z2T but this parameter needs to be set)
+""KeyL"":<key_l>,""KeyH"":<key_h>: 128 bits encryption key, split into 2 64 bits values (Low and High)
+""TXRadio"":<txradio>: radio power in dBm (1-20) only for ZBBridge
+All parameters are optional and only the ones specified are changed. The command always displays the complete configuration after the change
+Example of command: ZbConfig {""Channel"":22,""PanID"":""0x1A69"",""ExtPanID"":""0xDDCCCCCCCCCCCCCC"",""KeyL"":""0xFF0D0B0907050301"",""KeyH"":""0xED0C0A0806040200""}
+The following command creates a highly secure Network key based on a hardware random generator:
+ZbConfig {""KeyL"":"""",""KeyH"":""""}

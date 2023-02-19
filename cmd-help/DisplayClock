@@ -1,0 +1,9 @@
+
+DisplayClock
+(TM1637, TM1638 and MAX7219) 
+
+ TM1638 and MAX7219) ","Displays a clock. 
+1 = displays a clock in 12-hour format. 
+2 = displays a clock in 24-hour format. 
+0 = turns off the clock and clears the display 
+See TM163x for details.

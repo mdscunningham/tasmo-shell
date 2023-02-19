@@ -1,0 +1,6 @@
+
+CT
+
+153..500 = set color temperature from 153 (cold) to 500 (warm) for CT lights
++ = increase CT value by 10
+- = decrease CT value by 10

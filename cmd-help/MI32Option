@@ -1,0 +1,10 @@
+
+MI32Option<x> n
+
+Set driver options at runtime
+x=0 - 0 -> sends only recently received sensor data, 1 -> aggregates all recent sensors data types
+x=1 - 0 -> shows full sensor data at TELEPERIOD, 1 -> disable sensor data at TELEPERIOD
+x=2 - 0 -> sensor data only at TELEPERIOD (default and ""usual"" Tasmota style), 1 -> direct bridging of BLE-data to mqtt-messages
+x=4 - 0 -> always display battery info, 1 -> disable ""bogus"" battery info from LYWSD03MMC and MHOC401
+x=5 - 0 -> show all relevant BLE sensors, 1 -> show only sensors with a BLEAlias
+x=6 - 0 -> normal sensor message, 1 -> publish on tele/<mi32topic>/<name> 1 sensor on flat JSON (see Mi32Topic), 2 -> same as 1 with sensor name key

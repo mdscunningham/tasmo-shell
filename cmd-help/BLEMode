@@ -1,0 +1,7 @@
+
+BLEMode
+
+Change the operational mode of the BLE driver.
+BLEMode0 = disable regular BLE scans.
+BLEMode1 = BLE scan on command only.
+BLEMode2 = regular BLE scanning (default).

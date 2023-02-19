@@ -1,0 +1,6 @@
+
+SetOption134
+
+PWM force phases to be synced (ESP32 only).
+On ESP32, PWM phases are by default distributed one after the other to minimize effect on power supply. This is also mandatory for H-Bridge devices.
+0 = phases are automatically aligned one after the other, 1 = phases all start at the same time (default behavior for ESP8266).

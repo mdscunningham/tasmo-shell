@@ -1,0 +1,6 @@
+
+SetOption2
+
+Set display of global temperature/humidity/pressure info to JSON sensor message
+0 = disable (default)
+1 = enable

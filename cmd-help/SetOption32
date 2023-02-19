@@ -1,0 +1,5 @@
+
+SetOption32
+
+Number of 0.1 seconds to hold button before sending HOLD action message.
+1..100 to set button hold time (default = 40). This option also affects the time required to perform a firmware defaults reset (10x HOLD action time). There is no firmware reset on using the HOLD action with shutterbuttons.

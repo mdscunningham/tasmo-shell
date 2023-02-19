@@ -1,0 +1,5 @@
+
+NPReadL
+
+<addr> {<cnt>}
+read 32-bit register (addr = 0..0x060F, cnt = 1..15). cnt = 1 if omitted

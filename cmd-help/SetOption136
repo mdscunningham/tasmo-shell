@@ -1,0 +1,5 @@
+
+SetOption136
+
+1 = Disable single sensor reports from Tuya devices while keeping teleperiod reports
+0 = Publish an immediate tele/%topic%/SENSOR TuyaSNS message at each reception of individual value (default)

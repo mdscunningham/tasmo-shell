@@ -1,0 +1,5 @@
+
+TempRupDeltOutSet
+
+Sets the maximum delta between controlled temperature and setpoint for the controller to switch to the PI controller phase (applicable just in Hybrid controller mode)
+0..10 = value in degrees Celsius/Fahrenheit (default 0.2° Celsius)

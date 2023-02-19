@@ -1,0 +1,5 @@
+
+LogPort
+
+1 = reset syslog port to firmware default (SYS_LOG_PORT)
+2..32766 = set syslog port

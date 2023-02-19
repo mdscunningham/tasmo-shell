@@ -1,0 +1,6 @@
+
+RtcNtpServer<x>
+
+Use Tasmota NTP server when enabled by define RTC_NTP_SERVER
+0 = disabled
+1 = enabled

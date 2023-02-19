@@ -1,0 +1,5 @@
+
+TimePiProportRead
+
+Returns the proportional part of the PI controller calculation in seconds
+value = value in seconds

@@ -1,0 +1,6 @@
+
+SetOption30
+
+Enforce Home Assistant auto-discovery as light
+0 = relays are announced as a switch and PWM as a light (default)
+1 = both relays and PWM are announced as light

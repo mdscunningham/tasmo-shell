@@ -1,0 +1,10 @@
+
+Buzzer
+
+0 = stop active buzzer cycle
+<count>,<beep>,<silence>,<tune> = read more...
+2,3 = Beep twice with 300 milliseconds duration and 100 milliseconds pause
+2,3,4 = Beep twice with 300 milliseconds duration and 400 milliseconds pause
+1,2,3,0xF54 (0000 0000 0000 0000 0000 1111 0101 0100). Each 1 bit beeps for 200 milliseconds and each bounded 0 bit pauses for 300 milliseconds
+-1 = infinite mode
+-2 = follow LED mode

@@ -1,0 +1,6 @@
+
+DisplayDimmer
+
+0 = Turn the display off
+1..100 = Set display luminosity (only on 8x8 Dot-Matrix displays)
+13..100 maps to 1..7 levels of brightness for TM1637, TM1638 and MAX7219 seven-segment display modules

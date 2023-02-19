@@ -1,0 +1,7 @@
+
+BLEDetails
+
+Display details about received adverts
+BLEDetails0 = disable showing of details.
+BLEDetails1 mac/alias = show the next advert from device mac/alias
+BLEDetails2 mac/alias = show all advert from device mac

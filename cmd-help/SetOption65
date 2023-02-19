@@ -1,0 +1,6 @@
+
+SetOption65
+
+Device recovery using fast power cycle detection
+0 = enabled (default)
+1 = disabled

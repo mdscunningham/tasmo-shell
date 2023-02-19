@@ -1,0 +1,7 @@
+
+Power0
+
+Control the power state simultaneously for all power outputs on the device
+0 / off = turn OFF 
+1 / on = turn ON 
+2 / toggle = if relay is ON switch to OFF and vice versa

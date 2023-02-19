@@ -1,0 +1,5 @@
+
+TempHystSet
+
+Sets the value of the temperature hysteresis for the PI controller, in degrees Celsius/Fahrenheit
+-10..10 = value in degrees (default 0.1° Celsius)

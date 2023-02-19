@@ -1,0 +1,5 @@
+
+DzSend<type>
+
+send values or state to Domoticz
+<index>,<value1(;value2)|state>

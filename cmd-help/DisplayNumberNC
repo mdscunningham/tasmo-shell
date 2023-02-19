@@ -1,0 +1,7 @@
+
+DisplayNumberNC 
+(TM1637, TM1638 and MAX7219) 
+
+ TM1638 and MAX7219) ","num [, position[, leading_zeros[, length]]] 
+Display integer number as above, but without clearing first. Usage is same as above. 
+See TM163x for details.

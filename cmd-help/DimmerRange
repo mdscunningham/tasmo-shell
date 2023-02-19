@@ -1,0 +1,6 @@
+
+DimmerRange
+
+Change dimming range. 
+<dimmerMin>,<dimmerMax> = set the internal dimming range from minimum to maximum value (0..255, 0..255)
+Does not change Dimmer command behavior

@@ -1,0 +1,4 @@
+
+DevGroupStatus<x>
+
+Show the status of device group <x> including a list of the currently known members.

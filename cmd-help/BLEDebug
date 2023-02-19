@@ -1,0 +1,6 @@
+
+BLEDebug
+
+Set BLE debug level.
+BLEDebug = show extra debug information
+BLEDebug0 = suppress extra debug

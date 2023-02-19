@@ -1,0 +1,5 @@
+
+Prefix1
+
+1 = reset MQTT command subscription prefix to firmware default (SUB_PREFIX) and restart
+<value> = set MQTT command subscription prefix and restart

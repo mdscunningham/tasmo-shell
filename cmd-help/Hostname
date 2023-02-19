@@ -1,0 +1,6 @@
+
+Hostname
+
+1 = reset hostname to MQTT_TOPIC-<4digits> and restart
+<value> = set hostname (32 char limit) and restart. If hostname contains % it will be reset to the default instead. See FAQ for allowed characters.
+If using MQTT to issue this command, if it is used with the device GroupTopic, the command will not be executed.

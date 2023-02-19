@@ -1,0 +1,4 @@
+
+MI32Unit
+
+<x> = set the current Tasmota temperature unit as the temp unit for sensor in slot x.

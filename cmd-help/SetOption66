@@ -1,0 +1,6 @@
+
+SetOption66
+
+Set publishing TuyaReceived to MQTT
+0 = disable publishing TuyaReceived over MQTT (default)
+1 = enable publishing TuyaReceived over MQTT

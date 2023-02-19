@@ -1,0 +1,4 @@
+
+NPExec
+
+take over changes without writing to EEPROM. This command is necessary e.g. on changes in Installer page (addr 0x0400..0x04EE).

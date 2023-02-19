@@ -1,0 +1,4 @@
+
+SetOption45
+
+1..250 = change bi-stable latching relay pulse length in milliseconds (default = 40)

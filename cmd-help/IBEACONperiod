@@ -1,0 +1,6 @@
+
+IBEACONperiod
+
+Display or Set the period for publish of iBeacon data
+IBEACONperiod = display interval
+IBEACONperiod ss = set interval in seconds

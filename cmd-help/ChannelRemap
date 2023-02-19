@@ -1,0 +1,9 @@
+
+ChannelRemap
+SetOption37
+
+Color remapping for led channels, also provides an option for allowing independent handling of RGB and white channels. Setting changes require a device reboot.
+0 = disable
+1..119 = according to this table
+120..127 = invalid (results in same as 0)
+128..255 = same as 0..127 but with independent channel handling enabled

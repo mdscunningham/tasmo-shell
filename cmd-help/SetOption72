@@ -1,0 +1,6 @@
+
+SetOption72
+
+Set reference used for total energy 
+0 = use firmware counter (default)
+1 = use energy monitor (e.g., PZEM-0xx, SDM120, SDM630, DDS238, DDSU666) hardware counter

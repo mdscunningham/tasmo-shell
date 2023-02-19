@@ -1,0 +1,6 @@
+
+DzKeyIdx<x>
+
+Show Domoticz Key idx <x> (x = 1..4)
+0 = disable use of Key idx <x> (default)
+<value> = Show Key idx <x> (to use enable ButtonTopic)

@@ -1,0 +1,8 @@
+
+EthClockMode
+
+Ethernet clock mode.
+0 = ETH_CLOCK_GPIO0_IN (default)
+1 = ETH_CLOCK_GPIO0_OUT 
+2 = ETH_CLOCK_GPIO16_OUT
+3 = ETH_CLOCK_GPIO17_OUT

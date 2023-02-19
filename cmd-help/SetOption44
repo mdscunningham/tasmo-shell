@@ -1,0 +1,4 @@
+
+SetOption44
+
+1..100 = set base tolerance percentage for matching incoming IR messages (default = 25)

@@ -1,0 +1,6 @@
+
+MP3Device
+
+Specify playback device
+1 = USB
+2 = SD Card (default (also defaults on reset or power cycle))

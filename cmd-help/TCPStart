@@ -1,0 +1,7 @@
+
+TCPStart
+
+Requires GPIOs TCP Tx and TCP Rx and can work with hardware or software serial. Also works with ModBus Bridge
+<port>, [<ipaddress>] = Start listening to port. If <ipaddress> is defined only allows connections from the provided IPv4 address 
+0 = Shut down TCP server and disconnect any existing connection
+Supports 2 parallel TCP connections, which can be useful if you need a terminal + a specific protocol (like XMODEM). The 3rd connection will disconnect a previous connection. The number of parallel connections is a compile-time option.

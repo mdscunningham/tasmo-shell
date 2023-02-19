@@ -1,0 +1,12 @@
+
+Sensor12
+
+ADS1115 mode selection (default S0). Note that Vdd (2.0-5.5v) must be >= analog voltage inputs.
+D0 .. D5 = differential modes
+S0 .. S5 = single-ended modes
+0 = +/- 6.144v
+1 = +/- 4.096v
+2 = +/- 2.048v
+3 = +/- 1.024v
+4 = +/- 0.512v
+5 = +/- 0.256v

@@ -1,0 +1,5 @@
+
+MqttPort
+
+1 = reset MQTT port to firmware default (MQTT_PORT) and restart
+<value> = set MQTT port between 2 and 32766 and restart

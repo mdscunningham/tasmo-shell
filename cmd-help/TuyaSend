@@ -1,0 +1,14 @@
+
+TuyaSend<x>
+
+Send data to MCU with TuyaMCU
+x = 0..4,8
+TuyaSend0 = send a query command to the MCU
+TuyaSend1 <dpId>,<boolean> = send boolean (0/1) data type to dpId (1 byte max length)
+TuyaSend2 <dpId>,<int> = send integer data to dpId (4 bytes max length)
+TuyaSend2 <dpId>,<0xAABBCCDD> = send 4 byte data to dpId (4 bytes max length)
+TuyaSend3 <dpId>,<value> = send an ASCII string to dpId (unknown max length)
+TuyaSend4 <dpId>,<enum> = send enumerated (0/1/2/3/4/5) data type to dpId (1 byte max length)
+TuyaSend5 <dpId>,<value> = send an HEX string to dpId - 0x prefix NOT needed - (unknown max length)
+TuyaSend6 <dpId>,<value> = send an HEX raw value to dpId - 0x prefix NOT needed, but will be processed correctly - (unknown max length)
+TuyaSend8 = request dpId states if supported

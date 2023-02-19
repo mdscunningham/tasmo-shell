@@ -1,0 +1,22 @@
+
+Sensor54
+
+INA226 Current Sensor
+1 = rescan for devices and return the number found.
+2 = save the configuration and restart
+10 = return channel 1 shunt resistance, full scale current and full scale voltage
+11 <resistance> = set INA226 channel 1 shunt in ohms, floating point
+12 <current> = set INA226 channel 1 full scale in amperes, floating point
+13 <voltage> = set INA226 channel 1 full scale in volts, floating point (defaults to 40.96v, not persistent, must be set at boot)
+20 = return channel 2 shunt resistance and full scale current
+21 <resistance> = set INA226 channel 2 shunt in ohms, floating point
+22 <current> = set INA226 channel 2 full scale in amperes, floating point
+23 <voltage> = set INA226 channel 2 full scale in volts, floating point (defaults to 40.96v, not persistent, must be set at boot)
+30 = return channel 3 shunt resistance and full scale current
+31 <resistance> = set INA226 channel 1 shunt in ohms, floating point
+32 <current> = set INA226 channel 3 full scale in amperes, floating point
+33 <voltage> = set INA226 channel 3 full scale in volts, floating point (defaults to 40.96v, not persistent, must be set at boot)
+40 = return channel 4 shunt resistance and full scale current
+41 <resistance> = set INA226 channel 1 shunt in ohms, floating point
+42 <current> = set INA226 channel 4 full scale in amperes, floating point
+43 <voltage> = set INA226 channel 4 full scale in volts, floating point (defaults to 40.96v, not persistent, must be set at boot)

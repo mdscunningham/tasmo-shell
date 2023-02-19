@@ -1,0 +1,6 @@
+
+SetOption15
+
+Set PWM control for LED lights
+0 = basic PWM control
+1 = control with Color or Dimmer commands (default)

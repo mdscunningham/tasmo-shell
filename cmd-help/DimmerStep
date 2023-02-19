@@ -1,0 +1,4 @@
+
+DimmerStep
+
+1..50 - set Dimmer +/- step value. (default =10)

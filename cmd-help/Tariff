@@ -1,0 +1,15 @@
+
+Tariff<x>
+
+P1 Smart Meter tariff configuration
+x = 1, 2, 9
+1 STD,DST Start times for off-peak tariff
+2 STD,DST End times for off-peak tariff
+9 0/1
+ 0 = use Start/End times also on weekends.
+ 1 = use off-peak tariff all weekend.
+STD and DST may be specified as:
+ <hour> = 0..23 or
+ <time> = 00:00..23:59 or
+ <minutes> = 0..1439 (since midnight)
+If both Tariff1 STD and Tariff2 STD are equal, all tariffs are disabled.

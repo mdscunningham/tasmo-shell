@@ -1,0 +1,6 @@
+
+ZbNameTopic
+SetOption112
+
+0 = (default)
+1 = use friendly name in Zigbee topic (use with ZbDeviceTopic)

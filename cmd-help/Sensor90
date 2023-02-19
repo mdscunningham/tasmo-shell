@@ -1,0 +1,15 @@
+
+Sensor90
+
+Send commands to Hydreon RG-15 Rain Sensor
+A Reads accumulation data
+R Read all available data
+K Restart the rain sensor
+P Set to polling only mode (not supported)
+C Set to continuous mode, where data is sent when accumulation changes (default)
+H Force high resolution
+L Force low resolution
+I Force imperial (not supported)
+M Force metric (default)
+S Revert to jumper configured values
+O Reset the accumulation counter

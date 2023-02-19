@@ -1,0 +1,5 @@
+
+SensorRetain
+
+0 = disable use of sensor MQTT retain flag (default)
+1 = enable MQTT retain flag on message tele/%topic%/SENSOR

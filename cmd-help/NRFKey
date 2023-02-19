@@ -1,0 +1,7 @@
+
+NRFKey
+
+Set a ""bind_key"" for a MAC-address to decrypt (LYWSD03MMC & MHO-C401). The argument is a 44 uppercase characters long string, which is the concatenation of the bind_key and the corresponding MAC.
+<00112233445566778899AABBCCDDEEFF> (32 characters) = bind_key
+<112233445566> (12 characters) = MAC of the sensor
+<00112233445566778899AABBCCDDEEFF112233445566> (44 characters)= final string

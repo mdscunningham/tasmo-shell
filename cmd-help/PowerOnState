@@ -1,0 +1,10 @@
+
+PowerOnState
+
+Control power state when the device is powered up. More information
+0 / OFF = keep power(s) OFF after power up 
+1 / ON = turn power(s) ON after power up 
+2 / TOGGLE = toggle power(s) from last saved state 
+3 = switch power(s) to their last saved state (default) 
+4 = turn power(s) ON and disable further power control 
+5 = after a PulseTime period turn power(s) ON (acts as inverted PulseTime mode)

@@ -1,0 +1,14 @@
+
+LedState
+
+Manage LED state
+0 = disable use of LED as much as possible 
+1 = show power state on LED (LED on when power on) (default) (inverted for Sonoff Touch/T1)
+2 = show MQTT subscriptions as a LED blink
+3 = show power state and MQTT subscriptions as a LED blink
+4 = show MQTT publications as a LED blink
+5 = show power state and MQTT publications as a LED blink
+6 = show all MQTT messages as a LED blink
+7 = show power state and MQTT messages as a LED blink
+8 = LED on when Wi-Fi and MQTT are connected.
+Cannot be issued directly and is only activated when LedPower is switched from 0 to 1 due to a software function

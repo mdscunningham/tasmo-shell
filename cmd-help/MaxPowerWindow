@@ -1,0 +1,5 @@
+
+MaxPowerWindow
+
+1 = set default time to 30 seconds to stay power off before re-applying power up to 5 times
+<value> = set time in seconds to stay power off before re-applying power up to 5 times

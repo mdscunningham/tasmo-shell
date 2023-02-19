@@ -1,0 +1,6 @@
+
+CurrentCal
+
+1000..32000 (default = 3500)
+Set calibration offset value for reported Current telemetry
+Allows finer calibration for energy monitoring devices

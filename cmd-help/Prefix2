@@ -1,0 +1,5 @@
+
+Prefix2
+
+1 = reset MQTT status prefix to firmware default (PUB_PREFIX) and restart
+<value> = set MQTT status prefix and restart

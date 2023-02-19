@@ -1,0 +1,10 @@
+
+PulseTime<x>
+
+Display the amount of PulseTime remaining on the corresponding Relay<x>(x = 0..31)
+<value> Set the duration to keep Relay<x> ON when Power<x> ON command is issued. After this amount of time, the power will be turned OFF.
+0 / OFF = disable use of PulseTime for Relay<x>
+1..111 = set PulseTime for Relay<x> in 0.1 second increments
+112..64900 = set PulseTime for Relay<x>, offset by 100, in 1 second increments. Add 100 to desired interval in seconds, e.g., PulseTime 113 = 13 seconds and PulseTime 460 = 6 minutes (i.e., 360 seconds)
+Note if you have more than 8 relays:
+Defined PulseTime for relays <1-8> will also be active for correspondent Relay <9-16>.

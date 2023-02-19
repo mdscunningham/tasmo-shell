@@ -1,0 +1,6 @@
+
+InputSwitchUse
+
+Switch to decide if the input shall be used to automatically switch to manual mode and assign it to the output (useful if using a serially connected wall thermostat)
+0 = Input not used (default)
+1 = Input used

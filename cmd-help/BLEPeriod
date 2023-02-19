@@ -1,0 +1,5 @@
+
+BLEPeriod
+
+Set the period for publish of BLE data
+<value> = set interval in seconds

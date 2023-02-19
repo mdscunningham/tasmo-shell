@@ -1,0 +1,6 @@
+
+SetOption21
+
+Energy monitoring when power is off
+0 = disable (default)
+1 = enable

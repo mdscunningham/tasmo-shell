@@ -1,0 +1,6 @@
+
+SetOption63
+
+Set relay state feedback scan at restart (#5594, #5663)
+0 = Scan power state at restart (default)
+1 = Disable power state scanning at restart

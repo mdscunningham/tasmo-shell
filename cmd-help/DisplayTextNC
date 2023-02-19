@@ -1,0 +1,7 @@
+
+DisplayTextNC
+(TM1637, TM1638 and MAX7219) 
+
+ TM1638 and MAX7219) ","text[, position[, length]] 
+Clears first, then displays text. Usage is same as above. 
+See TM163x for details.

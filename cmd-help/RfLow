@@ -1,0 +1,6 @@
+
+RfLow
+
+1 = reset low pulse time to 270 microseconds
+2..32767 = set low pulse time in microseconds
+#2..#7FFF = set low pulse time in hexadecimal microseconds

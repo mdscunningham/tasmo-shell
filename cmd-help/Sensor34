@@ -1,0 +1,23 @@
+
+Sensor34
+
+HX711 load cell sensor calibration
+1 = reset display to 0
+2 = start calibration
+2 <value> = set reference weight in grams and start calibration
+3 = show reference weight in grams
+3 <value> = set reference weight in grams
+4 = show calibrated scale value
+4 <value> = set calibrated scale value
+5 = show max weight in gram
+5 <value> = set max weight in grams
+6 = show single item weight in grams
+6 <value> = set single item weight in grams. Once the item weight is set, when items are added to the scale, the telemetry message will report Count as the number of items on the scale
+7 = save current weight to be used as start weight on restart
+8 0/1 
+ 0 = disable JSON message on weight change over 4 grams
+ 1 = enable JSON message on weight change (see below)
+9 <value> = set minimum delta to trigger JSON message (see above). 
+ 0 = 4 grams (old default)
+ 1..100 = set delta to 0-99 grams
+ 101-255 = set delta to 110-1650 grams (10g increments)

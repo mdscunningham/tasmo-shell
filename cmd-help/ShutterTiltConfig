@@ -1,0 +1,5 @@
+
+ShutterTiltConfig<x>
+
+<min> <max> <Tiltduration> <openposition> <closeposition> (default = 0 0 0 0 0)
+Configure the tilt for venetian blinds. Min/man values must be in the range of -90° to 90°. Open and Close position must be part of the defined range between min and max. Tiltduration defines the time the shutter needs to change the tilt from min to max value. This time has to been multiplied by 20. E.g. 1.2sec = 1.2 x 20 = 24. Example defines tilt on shutter 2: shuttertiltconfig2 -90 90 24 0 90

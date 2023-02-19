@@ -1,0 +1,4 @@
+
+GlobalTemp
+
+-50.0..100.0 = Set global Temperature for some Sensors that uses global temperature.

@@ -1,0 +1,13 @@
+
+Sensor80
+
+Set antenna gain for MFRC522 RFID Reader.
+Sensor80 1 <0..7>
+0 18dB
+1 23dB
+2 18dB
+3 23dB
+4 33dB
+5 38dB
+6 43dB
+7 48dB

@@ -1,0 +1,5 @@
+
+TimeMaxActionSet
+
+Sets the maximum duty cycle of the PI controller in minutes
+0..1440 = value in minutes (default 20 minutes)

@@ -1,0 +1,5 @@
+
+OutputRelaySet
+
+Sets the output switch to be used for the thermostat
+<1..8> = Number of the output (default 1)

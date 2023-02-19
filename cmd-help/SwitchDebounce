@@ -1,0 +1,11 @@
+
+SwitchDebounce
+
+User control over switch debounce timing and method
+40..1000 = set switch debounce time in milliseconds (default = 50). The granularity is 10 milliseconds, so the normally unnecessary last digit is used by the debouncing code to flag special handling: 
+0 = no special handling 
+1 = force_high: only a debounce time long LOW pulse could turn the switch off 
+2 = force_low: only a debounce time long HIGH pulse could turn the switch on 
+3 = force_high + force_low 
+4..8 = unused 
+9 = AC detection for switches / relays similar to MOES MS-104B / BlitzWolf SS5 etc. If the AC frequency is 50 Hz, SwitchDebounce 69 will turn on the switch after three pulses and off after three missing one.

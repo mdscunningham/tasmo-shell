@@ -1,0 +1,13 @@
+
+SSerialSend<x>
+
+<string>
+Send using software serial protocol
+x = 1..5
+1 = send appending n (newline) ()
+2 = send
+3 = replace escape characters and send 
+4 = send as binary data. Data in serial response messages is encoded as binary strings
+5 = send as hex. Data in serial response messages is encoded as hex strings
+6 = send as comma-delimited string of decimal numbers
+9 = enable Serial Bridge console Tee for debugging purposes (payload 1 to enable)

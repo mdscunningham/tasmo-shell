@@ -1,0 +1,6 @@
+
+SetOption12
+
+Configuration saving to flash option
+0 = allow dynamic flash save slot rotation (default)
+1 = use fixed eeprom flash slot

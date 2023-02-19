@@ -1,0 +1,15 @@
+
+Sensor29
+
+MCP23008 / MCP23017 I2C GPIO Expander configuration. Read more...
+Reset<x> = reset all pins
+x = 1..6
+1 = INPUT mode, no reporting, no pull-up
+2 = INPUT mode, report on CHANGE, pull-up enabled
+3 = INPUT mode, report on LOW, pull-up enabled
+4 = INPUT mode, report on HIGH, pull-up enabled
+5 = OUTPUT mode (if enabled by #define USE_MCP230xx_OUTPUT)
+6 = inverted OUTPUT mode (if enabled by #define USE_MCP230xx_OUTPUT)
+ 
+pin,pinmode{,intpullup|outstate{,repmode}}
+Continue reading...

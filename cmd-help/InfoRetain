@@ -1,0 +1,5 @@
+
+InfoRetain
+
+0 = disable use of info MQTT retain flag (default)
+1 = enable MQTT retain flag on message tele/%topic%/INFO<x>

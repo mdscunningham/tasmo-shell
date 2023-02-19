@@ -1,0 +1,5 @@
+
+MI32Battery
+
+Trigger an active read of battery values.
+MI32Battery = request the driver read the battery from all sensors which have active battery read requirements.

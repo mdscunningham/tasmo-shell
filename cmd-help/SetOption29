@@ -1,0 +1,6 @@
+
+SetOption29
+
+IR received data format
+0 = hex (default)
+1 = decimal

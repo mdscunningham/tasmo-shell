@@ -1,0 +1,6 @@
+
+SetOption62
+
+Set retain on Button or Switch hold messages
+0 = disable (default)
+1 = don't use retain flag on HOLD messages

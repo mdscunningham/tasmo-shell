@@ -1,0 +1,9 @@
+
+ZbOccupancy
+
+Configure the time-out after ""Occupancy"":1 to send a synthetic ""Occupancy"":0 for Zigbee motion sensors
+<device>,<x> - set occupancy timeout for <device>
+Possible values for <x>
+0: no time-out, the device actually generates ""Occupancy"":0
+n: the number of seconds. The possible values are 15, 30, 45, 60, 75, 90, 105, 120. If the number is different, it is rounded up
+-1: apply the default of 90 seconds

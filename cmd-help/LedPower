@@ -1,0 +1,7 @@
+
+LedPower<x>
+
+LED<x> power state control. Enabled only when LedLink(i) is configured
+0 = turn LED OFF and set LedState 0 
+1 = turn LED ON and set LedState 0 
+2 = toggle LED and set LedState 0

@@ -1,0 +1,6 @@
+
+SetOption78
+
+OTA compatibility check
+0 = enabled (default)
+1 = disabled

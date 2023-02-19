@@ -1,0 +1,9 @@
+
+Time
+
+0 = enable NTP (default)
+1 = format JSON message timestamp in ISO format
+2 = format JSON message timestamp in both ISO and Epoch format
+3 = format JSON message timestamp in Epoch format
+4 = format JSON message timestamp in milliseconds
+<value> = disable NTP and set UTC time as epoch value if greater than 1451602800 (January 1, 2016)

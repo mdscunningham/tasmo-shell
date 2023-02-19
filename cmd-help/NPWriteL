@@ -1,0 +1,5 @@
+
+NPWriteL
+
+<addr> <data> {<data>...}
+write 32-bit register (addr = 0..0x060F, data = 0..0xFFFFFFFF). Use of data max 10 times

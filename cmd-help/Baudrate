@@ -1,0 +1,5 @@
+
+Baudrate
+
+1 = set hardware serial bridge to default baud rate of 115200 bps
+<value> = set baud rate. The set rate will be a multiple of 300. The maximum baud rate possible is 19,660,500.

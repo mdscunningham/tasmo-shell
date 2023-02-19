@@ -1,0 +1,5 @@
+
+HM10Auto 
+
+<value> = start an automatic discovery scan with an interval of <value> seconds to receive data in BLE advertisements periodically.
+This is an active scan and it should be used only if necessary. At the moment that is the case just with MJ_HT_V1. This can change if a future HM-10 firmware starts supporting passive scan.

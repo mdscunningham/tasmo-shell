@@ -1,0 +1,4 @@
+
+HSBColor
+
+<hue>,<sat>,<bri> = set color by hue, saturation and brightness

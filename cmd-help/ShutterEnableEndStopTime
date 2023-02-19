@@ -1,0 +1,5 @@
+
+ShutterEnableEndStopTime<x>
+
+0 = no additional shutter end stop time (default)
+1 = 1 s additional shutter end stop time

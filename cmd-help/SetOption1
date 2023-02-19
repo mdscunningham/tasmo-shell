@@ -1,0 +1,6 @@
+
+SetOption1
+
+Set button multipress mode to
+0 = allow all button actions (default)
+1 = restrict to single to penta press and hold actions (i.e., disable inadvertent reset due to long press)

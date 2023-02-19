@@ -1,0 +1,6 @@
+
+SetOption54
+
+Apply SetOption20 settings to commands from Tuya device
+0 = disable (default)
+1 = enable

@@ -1,0 +1,6 @@
+
+SetOption28
+
+RF received data format
+0 = hex (default)
+1 = decimal

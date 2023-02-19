@@ -1,0 +1,5 @@
+
+ShutterCloseDuration<x>
+
+1.0 ..240.0 (default = 10.0)
+time, in seconds, it takes to fully close the shutter. A fraction of a second can be specified (e.g. 45.7).

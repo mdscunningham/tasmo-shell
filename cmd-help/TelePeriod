@@ -1,0 +1,7 @@
+
+TelePeriod
+
+See current value and force publish STATE and SENSOR message
+0 = disable telemetry messages
+1 = reset telemetry period to firmware default (TELE_PERIOD)
+10..3600 = set telemetry period in seconds (default = 300)

@@ -1,0 +1,4 @@
+
+ShutterStop<x>
+
+Disengage the relays to stop the shutter. Number of shutter can be the index or the argument

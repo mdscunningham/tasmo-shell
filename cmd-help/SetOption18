@@ -1,0 +1,7 @@
+
+SetOption18
+
+Set status of signal light paired with CO2sensor
+0 = disable light (default)
+1 = enable light
+The light will be green below CO2_LOW and red above CO2_HIGH (transition yellow/orange between). The default levels are: 800ppm for low and 1200ppm for high but these can be set in user_config_override.h.

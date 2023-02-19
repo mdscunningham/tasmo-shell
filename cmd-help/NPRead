@@ -1,0 +1,5 @@
+
+NPRead
+
+<addr> {<cnt>}
+read 16-bit register (addr = 0..0x060F, cnt = 1..30). cnt = 1 if omitted

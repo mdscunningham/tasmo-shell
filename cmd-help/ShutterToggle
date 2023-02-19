@@ -1,0 +1,4 @@
+
+ShutterToggle<x>
+
+Toggle the shutter - close the shutter when its position is >50, open it otherwise

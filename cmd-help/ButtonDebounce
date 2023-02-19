@@ -1,0 +1,5 @@
+
+ButtonDebounce
+
+User control over button debounce timing 
+40..1000 = set button debounce time in milliseconds (default = 50)

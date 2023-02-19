@@ -1,0 +1,5 @@
+
+GroupTopic<x>
+
+1 = reset MQTT group <x> topic to firmware default (MQTT_GRPTOPIC) and restart
+<value> = set MQTT group <x> topic and restart

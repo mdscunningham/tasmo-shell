@@ -1,0 +1,9 @@
+
+Channel<x>
+
+0..100 = set PWM channel dimmer value from 0 to 100% 
++ = increase by 10
+- = decrease by 10
+When SetOption68 is set to 1 Channel<x> will follow Power<x> numbering with Relays first then PWM.
+Example:
+2 Relays and 3 PWM: Relay1 = Power1; Relay2 = Power2; PWM1 = Power3 and Channel3; PWM2 = Power4 and Channel4; PWM3 = Power5 and Channel5

@@ -1,0 +1,16 @@
+
+RfRaw
+
+This command only works when the firmware has been updated with Portisch firmware. Refer to the Portisch wiki for details.
+Learning and Decoding RF Codes with Portisch Firmware
+0 = Set iTead default firmware support and messages (default on restart)
+1 = set Portisch firmware support and messages
+166 or AAA655 = start sniffing/reading RF signals disabling iTead default RF handling
+167 or AAA755 = stop sniffing/reading RF signals enabling iTead default RF handling
+168 or AAA855 = transmitting iTead default RF protocols
+169 or AAA955 = start sniffing and learning predefined protocols
+176 or AAB055 = bucket Transmitting using command 0xB0
+177 or AAB155 = start Bucket sniffing using command 0xB1
+192 or AAC000C055 = beep (00C0 is the length of the sound)
+255 or AAFF55 = show Rf firmware version (result AA02FF means Version 02)
+<value> = hexadecimal data to be sent to RF chip. This must be immediately followed by the RfRaw 0 command (e.g., Backlog RfRaw <value>; RfRaw 0

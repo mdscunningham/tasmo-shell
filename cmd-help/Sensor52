@@ -1,0 +1,11 @@
+
+Sensor52
+
+iBeacon driver with HM10 or HM17/HM16
+1 and 2 = required only once to initialize the module 
+u<x> = sets update interval in seconds (scan tags every <x> seconds) (default = 10)
+t<x> = set timeout interval in seconds (send RSSI=0 if tag is not detected after <x> seconds) (default = 30)
+d1 = enable debug mode (shows all serial traffic in console)
+d0 = disable debug mode_(default = 30)_
+c = clears iBeacon list
+s AT+<command> = send native AT commands

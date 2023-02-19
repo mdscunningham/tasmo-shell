@@ -1,0 +1,6 @@
+
+SetOption57
+
+Wi-Fi network re-scan every 44 minutes with alternate to +10dB stronger signal if detected (only visible networks)
+0 = disable
+1 = enable (default)

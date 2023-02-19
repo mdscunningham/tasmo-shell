@@ -1,0 +1,10 @@
+
+NPLight
+
+{<state> {delay}}
+get/set light (state = 0..4, delay = 5..100 in 1/10 sec). Get if state is omitted, otherwise set accordingly <state>:
+0 - manual turn light off
+1 - manual turn light on
+2 - manual toggle light
+3 - switch light into auto mode according MBF_PAR_TIMER_BLOCK_LIGHT_INT settings
+4 - select light RGB LED to next program. This is normally done by power the light on (if currently off), then power off the light for a given time (delay) and power on again. The default delay is 15 (=1.5 sec).

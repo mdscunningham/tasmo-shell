@@ -1,0 +1,7 @@
+
+NPChlorine
+
+{<setpoint>}
+(only available if free chlorine probe detector is installed)
+get/set chlorine set point in ppm (setpoint = 0..10)
+get current set point if is omitted, otherwise set

@@ -1,0 +1,5 @@
+
+TCPBaudrate
+
+Requires GPIOs TCP Tx and TCP Rx and can work with hardware or software serial.
+1200..115200 = set the baudrate for serial (only 8N1 mode)

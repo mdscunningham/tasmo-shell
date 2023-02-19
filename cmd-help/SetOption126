@@ -1,0 +1,5 @@
+
+SetOption126
+
+Enable arithmetic mean over teleperiod for JSON temperature for DS18x20 sensors
+1 = enable

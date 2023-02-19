@@ -1,0 +1,5 @@
+
+ZbReset
+
+1 = perform a factory reset and reconfiguration of the CC2530 chip.
+You will need to re-pair all Zigbee devices

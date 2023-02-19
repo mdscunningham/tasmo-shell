@@ -1,0 +1,5 @@
+
+TimePiCycleSet
+
+Sets the value of the cycle for the PI controller
+0..1440 = value in minutes (default 30 minutes)

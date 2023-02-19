@@ -1,0 +1,4 @@
+
+MqttWifiTimeout
+
+100..20000 = set MQTT Wi-Fi connection timeout in milliseconds (default = 200)

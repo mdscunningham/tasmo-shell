@@ -1,0 +1,9 @@
+
+Scale<x>
+
+Scale value from a low and high limit to another low and high limits and save in Var<x> (example)
+v = value: the number to scale
+fl = fromLow: the lower bound of the value’s current range
+fh = fromHigh: the upper bound of the value’s current range
+tl = toLow: the lower bound of the value’s target range
+th = toHigh: the upper bound of the value’s target range

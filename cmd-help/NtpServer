@@ -1,0 +1,7 @@
+
+NtpServer<x>
+
+NTP server setup (x= 1..3)
+0 = clear NtpServer<x> settings
+1 = reset NtpServer<x> settings to firmware defaults
+<value> = set NtpServer<x> host or IP address (32 char limit)

@@ -1,0 +1,6 @@
+
+PWMFrequency
+
+1 = reset PWM frequency to 223Hz
+40..4000 or 2..50000 = set PWM frequency (40Hz to 4kHz on ESP 82xx / 2Hz to 50kHz on ESP32)
+As of v8.3.0 the default frequency changed to 977Hz

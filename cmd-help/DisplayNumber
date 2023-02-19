@@ -1,0 +1,11 @@
+
+DisplayNumber 
+(TM1637, TM1638 and MAX7219)
+
+ TM1638 and MAX7219)","num [, position[, leading_zeros[, length]]] 
+Clears and then displays number num without decimal.
+ 
+leading zeros can be 1 or 0 (default),
+length can be 1 to NUM_DIGITS (4 or 6), 
+position can be 0 (left-most) to NUM_DIGITS (right-most). 
+See TM163x for details.

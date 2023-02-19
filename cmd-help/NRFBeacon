@@ -1,0 +1,6 @@
+
+NRFBeacon
+
+Set a BLE device as a beacon using the (fixed) MAC-address
+<value> (1-3 digits) = use beacon from scan list
+<value> (12 characters) = use beacon given the MAC interpreted as an uppercase string AABBCCDDEEFF

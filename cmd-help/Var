@@ -1,0 +1,7 @@
+
+Var<x>
+
+Manage up to 16 variables stored in memory (x = 1..16)
+Var returns all current values. Var<x> returns the variable's current value.
+<string> = store a string value in a variable
+"" = clear stored value in Var<x>

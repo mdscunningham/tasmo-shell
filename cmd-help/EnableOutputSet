@@ -1,0 +1,6 @@
+
+EnableOutputSet
+
+Enables or disables the physical output
+0 = Output disabled
+1 = Output enabled (default)

@@ -1,0 +1,5 @@
+
+ZbLeave
+
+<device> = request a device to leave the network.
+If the device is offline or sleeping, this will have no effect. It is not 100% guaranteed that the device will never connect again

@@ -1,0 +1,6 @@
+
+ClimateModeSet
+
+Sets the climate mode
+0 = Heating mode (default)
+1 = Cooling mode

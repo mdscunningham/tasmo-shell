@@ -1,0 +1,5 @@
+
+MotorSPR
+
+integer Set the number of steps the given motor needs for one revolution (default = 200)
+This is dependent on the type of motor and micro stepping. Most common motors are 1.8° per step.
