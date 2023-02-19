@@ -29,7 +29,7 @@ out=/var/tmp/tasmo-shell.tmp
 history=~/.tasmo_history
 datefmt="%F %T"
 proto="http"
-
+help_dir='cmd-help'
 
 # Source rc file if it exists
 if [[ -f ~/.tasmorc ]]; then source ~/.tasmorc; fi
@@ -42,6 +42,9 @@ if [[ $ts_histfile ]]; then history="$ts_histfile"; fi
 
 # Check date format
 if [[ $ts_datefmt ]]; then datefmt="$ts_datefmt"; fi
+
+# Chekc for alternate help directory
+if [[ $ts_help_dir ]]; then help_dir="$ts_help_dir"; fi
 
 # Log start of session
 echo "$(date +"$datefmt") - SHELL_CMD - ${1:-shell} - '${cmd:-shell}' - '${filter:-none}'" >> $history
@@ -143,7 +146,13 @@ if [[ ! $1 ]]; then
   read -p "Enter IP to connect to: " ip
   shell $ip
 elif [[ $1 =~ -h|--help|help ]]; then
-  usage
+  if [[ ! $2 ]]; then
+    usage
+  elif [[ $2 == "list" ]]; then
+    ls -1 $help_dir | column -x
+  elif [[ -f $help_dir/$(ls -1 $help_dir | grep -i ^${2}$) ]]; then
+    cat $help_dir/$(ls -1 $help_dir | grep -i ^${2}$); echo
+  fi
 elif [[ -f $1 ]]; then
   list="$(cat $1)"
   cmdloop
