@@ -121,6 +121,10 @@ cat <<EOF
 
    filter ... Json filter to pass to jq. Quote multi-part filters.
 
+   help ..... Show this output and exit.
+              * If a command name is given after 'help' then show help for that given command
+              * To list all available commands use 'help list'
+
  Examples:
    Run command on a large of devices
      $_name <list-file> <command>
@@ -136,6 +140,12 @@ cat <<EOF
 
    Connect to single device with shell-like command prompt
      $_name <ip>
+
+   Command help output
+     $_name help DevGroupSend
+
+   List available commands
+     $_name help list
 
 EOF
 exit 1
