@@ -1,0 +1,5 @@
+
+DhtDelay<x>
+
+<high_delay>,<low_delay> = set delay for sensor <x>
+1 = reset sensor <x> to default

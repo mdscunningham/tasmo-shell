@@ -12,6 +12,10 @@
 
    filter ... Json filter to pass to jq. Quote multi-part filters.
 
+   help ..... Show this output and exit.
+              * If a command name is given after 'help' then show help for that given command
+              * To list all available commands use 'help list'
+
  Examples:
    Run command on a large of devices
      tasmo-shell.sh <list-file> <command>
@@ -27,5 +31,11 @@
 
    Connect to single device with shell-like command prompt
      tasmo-shell.sh <ip>
+
+   Command help output
+     tasmo-shell.sh help DevGroupSend
+
+   List available commands
+     tasmo-shell.sh help list
 
 ```
