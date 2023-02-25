@@ -93,13 +93,26 @@ cmdloop(){
   done
 }
 
+# Command help
+cmd_help(){
+  if [[ $1 == "list" ]]; then
+    ls -1 $help_dir | column -x
+  elif [[ -f $help_dir/$(ls -1 $help_dir | grep -i ^${1}$) ]]; then
+    cat $help_dir/$(ls -1 $help_dir | grep -i ^${1}$); echo
+  fi
+}
+
 # Command shell
 shell(){
   echo "Input 'exit' or 'quit' to end session"; echo
   list=${1}; ip=${1}
   read -p "${ip}: " cmd
   while [[ $cmd != 'quit' && $cmd != 'exit' ]]; do
-    cmdloop
+    if [[ $cmd =~ [hH][eE][lL][pP].[a-zA-Z].* ]]; then
+      cmd_help $(echo $cmd | awk '{print $2}')
+    else
+      cmdloop
+    fi
     read -p "${ip}: " cmd
   done
 }
@@ -158,10 +171,8 @@ if [[ ! $1 ]]; then
 elif [[ $1 =~ -h|--help|help ]]; then
   if [[ ! $2 ]]; then
     usage
-  elif [[ $2 == "list" ]]; then
-    ls -1 $help_dir | column -x
-  elif [[ -f $help_dir/$(ls -1 $help_dir | grep -i ^${2}$) ]]; then
-    cat $help_dir/$(ls -1 $help_dir | grep -i ^${2}$); echo
+  else
+    cmd_help $2
   fi
 elif [[ -f $1 ]]; then
   list="$(cat $1)"
