@@ -21,7 +21,7 @@
      tasmo-shell.sh <list-file> <command>
 
    Run command on a small list of devices
-     tasmo-shell.sh <ip,ip,ip> <command>
+     tasmo-shell.sh <ip/host,ip/host,ip/host> <command>
 
    Run command with filtered output
      tasmo-shell.sh <list> "status 2" '.StatusFWR | "\(.Version), \(.Hardware)"'
@@ -30,7 +30,7 @@
      tasmo-shell.sh <list> <cmd-file>
 
    Connect to single device with shell-like command prompt
-     tasmo-shell.sh <ip>
+     tasmo-shell.sh <ip/host>
 
    Command help output
      tasmo-shell.sh help DevGroupSend

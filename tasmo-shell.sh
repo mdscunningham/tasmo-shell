@@ -29,7 +29,7 @@ out=/var/tmp/tasmo-shell.tmp
 history=~/.tasmo_history
 datefmt="%F %T"
 proto="http"
-help_dir='cmd-help'
+help_dir='.tasmo_help'
 
 # Source rc file if it exists
 if [[ -f ~/.tasmorc ]]; then source ~/.tasmorc; fi
@@ -104,17 +104,24 @@ cmd_help(){
 
 # Command shell
 shell(){
-  echo "Input 'exit' or 'quit' to end session"; echo
+  shell-help
   list=${1}; ip=${1}
   read -p "${ip}: " cmd
-  while [[ $cmd != 'quit' && $cmd != 'exit' ]]; do
+  while [[ $cmd != 'quit' && $cmd != 'exit' && $cmd != 'q' && $cmd != 'x' ]]; do
     if [[ $cmd =~ [hH][eE][lL][pP].[a-zA-Z].* ]]; then
       cmd_help $(echo $cmd | awk '{print $2}')
+    elif [[ $cmd =~ [hH][eE][lL][pP] ]]; then
+      shell-help
     else
       cmdloop
     fi
     read -p "${ip}: " cmd
   done
+}
+
+# Help inside the shell
+shell-help(){
+  echo "Use 'exit' or 'quit' to end session. Use 'help list' or 'help command-name' for help."; echo
 }
 
 # Help output
@@ -143,7 +150,7 @@ cat <<EOF
      $_name <list-file> <command>
 
    Run command on a small list of devices
-     $_name <ip,ip,ip> <command>
+     $_name <ip/host,ip/host,ip/host> <command>
 
    Run command with filtered output
      $_name <list> "status 2" '.StatusFWR | "\(.Version), \(.Hardware)"'
@@ -152,7 +159,7 @@ cat <<EOF
      $_name <list> <cmd-file>
 
    Connect to single device with shell-like command prompt
-     $_name <ip>
+     $_name <ip/host>
 
    Command help output
      $_name help DevGroupSend
@@ -166,7 +173,7 @@ exit 1
 
 # Main select logic
 if [[ ! $1 ]]; then
-  read -p "Enter IP to connect to: " ip
+  read -p "Enter IP/Host to connect to: " ip
   shell $ip
 elif [[ $1 =~ -h|--help|help ]]; then
   if [[ ! $2 ]]; then

@@ -2,6 +2,6 @@
 ts_histfile=~/.tasmo_history
 ts_datefmt="%F %T"
 ts_proto='http'
-ts_help_dir='cmd-help'
+ts_help_dir=~/.tasmo_help
 ts_user=''
 ts_pass=''
