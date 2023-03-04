@@ -151,7 +151,7 @@ cat <<EOF
               * To search the help files use "help search <query>"
 
  Examples:
-   Run command on a large of devices
+   Run command on a large list of devices
      $_name <list-file> <command>
 
    Run command on a small list of devices
