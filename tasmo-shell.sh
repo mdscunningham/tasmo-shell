@@ -96,7 +96,11 @@ cmdloop(){
 # Command help
 cmd_help(){
   if [[ $1 == "list" ]]; then
-    ls -1 $help_dir | column -x
+    count=$(ls -1 $help_dir | wc -l)
+    read -p "Display $count commands? [y/n] " yn
+    if [[ $yn =~ [yY].* ]]; then ls -1 $help_dir | column -x; fi
+  elif [[ $1 == "search" ]]; then
+    shift; echo; grep -irls "$@" $help_dir | sed "s/$help_dir\///g"; echo
   elif [[ -f $help_dir/$(ls -1 $help_dir | grep -i ^${1}$) ]]; then
     cat $help_dir/$(ls -1 $help_dir | grep -i ^${1}$); echo
   fi
@@ -108,9 +112,9 @@ shell(){
   list=${1}; ip=${1}
   read -p "${ip}: " cmd
   while [[ $cmd != 'quit' && $cmd != 'exit' && $cmd != 'q' && $cmd != 'x' ]]; do
-    if [[ $cmd =~ [hH][eE][lL][pP].[a-zA-Z].* ]]; then
-      cmd_help $(echo $cmd | awk '{print $2}')
-    elif [[ $cmd =~ [hH][eE][lL][pP] ]]; then
+    if [[ $cmd =~ help.[a-zA-Z].* ]]; then
+      cmd_help ${cmd/help/}
+    elif [[ $cmd =~ help ]]; then
       shell-help
     else
       cmdloop
@@ -144,6 +148,7 @@ cat <<EOF
    help ..... Show this output and exit.
               * If a command name is given after 'help' then show help for that given command
               * To list all available commands use 'help list'
+              * To search the help files use "help search <query>"
 
  Examples:
    Run command on a large of devices
@@ -179,7 +184,7 @@ elif [[ $1 =~ -h|--help|help ]]; then
   if [[ ! $2 ]]; then
     usage
   else
-    cmd_help $2
+    shift; cmd_help $@
   fi
 elif [[ -f $1 ]]; then
   list="$(cat $1)"

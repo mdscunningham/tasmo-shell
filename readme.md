@@ -15,6 +15,7 @@
    help ..... Show this output and exit.
               * If a command name is given after 'help' then show help for that given command
               * To list all available commands use 'help list'
+              * To search the help files use "help search <query>"
 
  Examples:
    Run command on a large of devices
