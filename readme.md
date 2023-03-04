@@ -40,6 +40,6 @@
      tasmo-shell.sh help list
 
    Search command help
-     $_name help search fade
+     tasmo-shell.sh help search fade
 
 ```
