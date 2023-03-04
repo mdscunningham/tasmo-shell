@@ -172,6 +172,9 @@ cat <<EOF
    List available commands
      $_name help list
 
+   Search command help
+     $_name help search fade
+
 EOF
 exit 1
 }

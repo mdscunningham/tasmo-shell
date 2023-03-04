@@ -39,4 +39,7 @@
    List available commands
      tasmo-shell.sh help list
 
+   Search command help
+     $_name help search fade
+
 ```
