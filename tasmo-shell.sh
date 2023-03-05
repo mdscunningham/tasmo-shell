@@ -99,8 +99,10 @@ cmd_help(){
     count=$(ls -1 $help_dir | wc -l)
     read -p "Display $count commands? [y/n] " yn
     if [[ $yn =~ [yY].* ]]; then ls -1 $help_dir | column -x; fi
-  elif [[ $1 == "search" ]]; then
-    shift; echo; grep -irls "$@" $help_dir | sed "s/$help_dir\///g"; echo
+  elif [[ $1 == search && $2 ]]; then
+    shift; echo; grep -irls "$@" $help_dir | while read name; do basename $name; done; echo
+  elif [[ $1 == search && ! $2 ]]; then
+    echo "Please enter a serch query."
   elif [[ -f $help_dir/$(ls -1 $help_dir | grep -i ^${1}$) ]]; then
     cat $help_dir/$(ls -1 $help_dir | grep -i ^${1}$); echo
   fi
@@ -114,7 +116,7 @@ shell(){
   while [[ $cmd != 'quit' && $cmd != 'exit' && $cmd != 'q' && $cmd != 'x' ]]; do
     if [[ $cmd =~ help.[a-zA-Z].* ]]; then
       cmd_help ${cmd/help/}
-    elif [[ $cmd =~ help ]]; then
+    elif [[ $cmd == help ]]; then
       shell-help
     else
       cmdloop
